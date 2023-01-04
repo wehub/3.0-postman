@@ -1,0 +1,11 @@
+{
+	"controller" : {
+		"personal_verification" : {
+			"documents" : [
+				"724ec0d3-2eb5-461e-b72d-a15c6b1a9970",
+				"3838d4ba-f497-4b6f-8d22-19b90cec4f23",
+				"242f9ec7-a309-412c-976d-cc84074a508a"
+			]
+		}
+	}
+}

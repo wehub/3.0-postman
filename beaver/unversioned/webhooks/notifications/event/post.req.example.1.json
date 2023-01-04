@@ -1,0 +1,11 @@
+{
+	"eventTimestamp": "1511307578",
+	"eventCorrelationId": "08379677-ace6-403b-b241-f540ab7cac5b",
+	"eventName": "PaymentApproved",
+	"eventSchemaName": "PaymentApprovedEvent",
+	"payload" : {
+		"transactionIdentifier": "10379677-ace6-403b-b241-f540ab7cac5b",
+		"demandDepositAccountNumber": "1111111",
+		"americanBankersAssociationRoutingNumber": "99999999"
+	}
+}

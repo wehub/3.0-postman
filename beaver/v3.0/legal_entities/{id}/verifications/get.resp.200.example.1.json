@@ -1,0 +1,260 @@
+{
+	"additional_representatives" : {
+		"representative_0" : {
+			"reference_id": "reference_id_0",
+			"personal_verification" : {
+				"current_issues" : [
+					{
+						"additional_documents_required" : [
+							"additional_representatives.representative_0.personal_verification.documents"
+						],
+						"issue_type" : "additional_documents_required",
+						"target" : {
+							"id" : null,
+							"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+							"resource" : "verifications"
+						}
+					},
+					{
+						"identity_verification": {
+							"path": "additional_representatives.representative_0.personal_verification.documents",
+							"requested_documents": [
+								"drivers_license",
+								"current_lease_contract"
+							],
+							"message": "we need to verify your address"
+						},
+						"issue_type": "identity_verification",
+						"target": {
+							"id": null,
+							"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+							"resource": "verifications"
+						}
+					},
+					{
+						"risk_outreach": {
+							"path": "additional_representatives.representative_0.personal_verification.documents",
+							"requested_documents": [
+								"drivers_license",
+								"current_lease_contract"
+							],
+							"message": "we need to verify your address"
+						},
+						"issue_type": "risk_outreach",
+						"target": {
+							"id": null,
+							"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+							"resource": "verifications"
+						}
+					}
+				],
+				"documents" : [
+					{
+						"create_time" : 1480700611,
+						"id" : "31b16e40-6af7-4c8a-9a9f-ad413ba7293f",
+						"owner" : {
+							"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+							"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+							"resource" : "legal_entities"
+						},
+						"path" : null,
+						"reject_reason" : {
+							"details" : [
+								{
+									"detail_code" : "illegible",
+									"detail_message" : "image is illegible"
+								}
+							],
+							"reason_code" : "failed_risk_review",
+							"reason_message" : "failed review"
+						},
+						"resource" : "documents",
+						"status" : "rejected",
+						"type" : "social_security_card"
+					}
+				],
+				"verified" : false
+			}
+		},
+		"representative_1" : {
+			"reference_id": "reference_id_1",
+			"personal_verification" : {
+				"current_issues" : [],
+				"documents" : [],
+				"verified" : true
+			}
+		},
+		"representative_2" : {
+			"reference_id": "reference_id_2",
+			"personal_verification" : {
+				"current_issues" : [
+					{
+						"additional_documents_required" : [
+							"additional_representatives.representative_2.personal_verification.documents"
+						],
+						"issue_type" : "additional_documents_required",
+						"target" : {
+							"id" : null,
+							"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+							"resource" : "verifications"
+						}
+					}
+				],
+				"documents" : [],
+				"verified" : false
+			}
+		},
+		"representative_3" : {
+			"reference_id": "reference_id_3",
+			"personal_verification" : {
+				"current_issues" : [
+					{
+						"target": {
+							"id": "null",
+							"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+							"resource" : "verifications"
+						},
+						"issue_type": "errant_fields",
+						"errant_fields": {
+							"entity_name": [
+								"includes_dba"
+							],
+							"primary_url": [
+								"invalid_url"
+							],
+							"address": [
+								"does_not_match_provided_doc",
+								"does_not_match_government_sources"
+							]
+						}
+					}
+				],
+				"documents" : [],
+				"verified" : false
+			}
+		}
+	},
+	"controller" : {
+		"reference_id": "reference_id_4",
+		"personal_verification" : {
+			"current_issues" : [
+				{
+					"in_review" : [
+						"controller.personal_verification"
+					],
+					"issue_type" : "in_review",
+					"target" : {
+						"id" : null,
+						"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+						"resource" : "verifications"
+					}
+				},
+				{
+					"identity_verification": {
+						"path": "controller.personal_verification.documents",
+						"requested_documents": [
+							"drivers_license",
+							"current_lease_contract"
+						],
+						"message": "we need to verify your address"
+					},
+					"issue_type": "identity_verification",
+					"target": {
+						"id": null,
+						"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+						"resource": "verifications"
+					}
+				},
+				{
+					"risk_outreach": {
+						"path": "controller.personal_verification.documents",
+						"requested_documents": [
+							"current_bank_statement"
+						],
+						"message": "we need to verify your date of birth"
+					},
+					"issue_type": "risk_outreach",
+					"target": {
+						"id": null,
+						"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+						"resource": "verifications"
+					}
+				}
+			],
+			"documents" : [
+				{
+					"create_time" : 1480700611,
+					"id" : "724ec0d3-2eb5-461e-b72d-a15c6b1a9970",
+					"owner" : {
+						"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+						"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+						"resource" : "legal_entities"
+					},
+					"path" : null,
+					"reject_reason" : null,
+					"resource" : "documents",
+					"status" : "in_review",
+					"type" : "social_security_card"
+				},
+				{
+					"create_time" : 1480700611,
+					"id" : "3838d4ba-f497-4b6f-8d22-19b90cec4f23",
+					"owner" : {
+						"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+						"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+						"resource" : "legal_entities"
+					},
+					"path" : null,
+					"reject_reason" : null,
+					"resource" : "documents",
+					"status" : "verified",
+					"type" : "drivers_license"
+				},
+				{
+					"create_time" : 1480700611,
+					"id" : "242f9ec7-a309-412c-976d-cc84074a508a",
+					"owner" : {
+						"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+						"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+						"resource" : "legal_entities"
+					},
+					"path" : null,
+					"reject_reason" : null,
+					"resource" : "documents",
+					"status" : "in_review",
+					"type" : "passport"
+				}
+			],
+			"verified" : false
+		}
+	},
+	"entity_verification" : {
+		"current_issues" : [],
+		"documents" : [
+			{
+				"create_time" : 1480700611,
+				"id" : "99e0d61d-0b47-41df-9c33-b7bf456d07a8",
+				"owner" : {
+					"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+					"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+					"resource" : "legal_entities"
+				},
+				"path" : null,
+				"reject_reason" : null,
+				"resource" : "documents",
+				"status" : "verified",
+				"type" : "evidence_of_corporate_registration"
+			}
+		],
+		"verified" : true
+	},
+	"id" : null,
+	"owner" : {
+		"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+		"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+		"resource" : "legal_entities"
+	},
+	"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+	"resource" : "verifications",
+	"api_version": "3.0"
+}

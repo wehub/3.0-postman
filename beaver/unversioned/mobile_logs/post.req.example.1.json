@@ -1,0 +1,60 @@
+{
+  "log_list": [
+    {
+      "id": "682dc708-d2cf-433c-94b6-50cb921a3579",
+      "sequence_number": 1,
+      "app_id": "183700",
+      "account_id": "45b003fb-4e99-4a7b-b066-b0b4af692519",
+      "log_level": "INFO",
+      "collection_timestamp": 1620845159149,
+      "wepay_sdk_instance_id": "917c4689-8195-4d39-8471-5ece4dc04161",
+      "wepay_sdk_version": "1.0",
+      "content": {
+        "type": "event",
+        "event":{
+          "name": "event_name",
+          "data": {
+            "key1": "value1",
+            "key2": "value2"
+          }
+        }
+      },
+      "class_file_path": "~/wepay-ios-priv/WePay/WePay.m",
+      "class_name": "WePay",
+      "class_function_name": "-[WePay getCardReaderInfoWithCardReaderDelegate:cardReaderInfoDelegate:]",
+      "class_line_number": 177,
+      "device_platform": "iOS",
+      "device_os_version": "14.5.1",
+      "device_model_name": "iPhone 12 Pro",
+      "device_id": "6b3e7d7b-ec14-4aee-94a5-14e2fff36a52",
+      "mobile_application_id": "com.wepay.ios.example",
+      "mobile_application_version": "1.0"
+    },
+    {
+      "id": "a3c7d2c0-1733-4920-a780-a5794ed18f2d",
+      "sequence_number": 2,
+      "app_id": "183700",
+      "account_id": "45b003fb-4e99-4a7b-b066-b0b4af692519",
+      "log_level": "INFO",
+      "collection_timestamp": 1620845159149,
+      "wepay_sdk_instance_id": "917c4689-8195-4d39-8471-5ece4dc04161",
+      "wepay_sdk_version": "1.0",
+      "content": {
+        "type": "message",
+        "message": {
+          "text": "This is a message."
+        }
+      },
+      "class_file_path": "~/src/main/java/com/wepay/Main.java",
+      "class_name": "com.wepay.NonPublicClass",
+      "class_function_name": "function_name2",
+      "class_line_number": 57,
+      "device_platform": "iOS",
+      "device_os_version": "14.5.1",
+      "device_model_name": "iPhone 12 Pro",
+      "device_id": "6b3e7d7b-ec14-4aee-94a5-14e2fff36a52",
+      "mobile_application_id": "com.wepay.android.example",
+      "mobile_application_version": "1.0"
+    }
+  ]
+}

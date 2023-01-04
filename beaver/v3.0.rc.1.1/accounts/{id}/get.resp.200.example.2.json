@@ -1,0 +1,127 @@
+{
+    "custom_data": null,
+    "documents": [],
+    "convenience_fee_amount": 25,
+    "transaction_type": "internet",
+    "onboarding_location": {
+        "line1": "123 candy st.",
+        "city": "redwood city",
+        "region": "CA",
+        "country": "US",
+        "postal_code": "94063"
+    },
+    "transaction_division_mid": null,
+    "accepted_method_of_payments": {
+        "countries": {
+            "US": {
+                "visa": {
+                    "card_not_present": {
+                        "credit": true,
+                        "debit": true
+                    },
+                    "card_present": {
+                        "contact": {
+                            "credit": true,
+                            "debit": true
+                        },
+                        "contactless": {
+                            "credit": true,
+                            "debit": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "balances": {
+        "currencies": {
+            "USD": {
+                "balance": 0,
+                "incoming_pending": 0,
+                "outgoing_pending": 0,
+                "reserve": 0
+            }
+        }
+    },
+    "beneficiary": {
+        "id": "3cd20b3c-4008-400b-b708-2b844ce7be84",
+        "path": "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+        "resource": "legal_entities"
+    },
+    "create_time": 1480700534,
+    "api_version": "3.0",
+    "description": "The Foo Bar campaign is raising money for Bar Baz.",
+    "enhanced_review": "not_requested",
+    "id": "d3f61e56-5d99-4895-af2d-a07ab48476e9",
+    "incoming_payments": {
+        "accepted_methods": [
+            "payment_bank",
+            "mastercard",
+            "visa",
+            "amex"
+        ]
+    },
+    "industry": {
+        "category_detail": "Website design",
+        "merchant_category_code": "7333"
+    },
+    "name": "Foo Bar campaign",
+    "owner": {
+        "id": "3cd20b3c-4008-400b-b708-2b844ce7be84",
+        "path": "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+        "resource": "legal_entities"
+    },
+    "path": "/accounts/d3f61e56-5d99-4895-af2d-a07ab48476e9",
+    "payout": {
+        "currencies": {
+            "USD": {
+                "next_payout_time": 14987382982,
+                "payout_method_id": "0102b1c6-2bc7-448a-aa1d-076b1637547c",
+                "period": "daily"
+            }
+        },
+        "default_currency": "USD"
+    },
+    "pricing": {
+        "currencies": {
+            "USD": {
+                "credit_card": {
+                    "type": "interchange_plus",
+                    "interchange_plus": {
+                        "transaction": {
+                            "fixed_fee_markup_amount": 30,
+                            "variable_fee_markup_bps": 50
+                        },
+                        "auth": {
+                            "fixed_fee_markup_amount": 20
+                        },
+                        "refund_fee_for_transaction_markup": true,
+                        "chargeback_amount": 1000
+                    }
+                },
+                "payment_bank": {
+                    "type": "standard",
+                    "standard": {
+                        "fixed_fee_amount": 25,
+                        "variable_fee_bps": 100,
+                        "min_fee_amount": 100,
+                        "max_fee_amount": 5000,
+                        "refund_fee_for_standard": false
+                    }
+                },
+                "recurring_fee": {
+                    "period": "monthly",
+                    "amount": 10000
+                },
+                "other_fees": {
+                    "debit_failure_fee": 500
+                }
+            }
+        }
+    },
+    "reference_id": null,
+    "resource": "accounts",
+    "statement_description": "Thanks for your Foo Bar campaign donation",
+    "platform_onboarding_time": null,
+    "projected_monthly_transaction_volume": 10000
+}

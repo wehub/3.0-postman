@@ -1,0 +1,202 @@
+{
+    "post": {
+        "tags": [
+            "/legal_entities/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/legal_entities/{id}/verifications/post.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/legal_entities/{id}/verifications/post.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-verifications/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-verifications/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "409": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-verifications/errors/409"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-verifications/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "operationId": "POST_legal_entities-id-verifications",
+        "requestBody": {
+            "content": {
+                "application/json": {
+                    "example": {
+                        "$ref": "file:./beaver/v3.0/legal_entities/{id}/verifications/post.req.example.1.json"
+                    },
+                    "schema": {
+                        "$ref": "file:./beaver/v3.0/legal_entities/{id}/verifications/post.req.schema.json"
+                    }
+                }
+            },
+            "required": true
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Content-Type"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_expandable_requirements"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-verifications/summary"
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-verifications/description"
+        }
+    },
+    "get": {
+        "tags": [
+            "/legal_entities/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/legal_entities/{id}/verifications/get.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/legal_entities/{id}/verifications/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_legal_entities-id-verifications/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_legal_entities-id-verifications/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_legal_entities-id-verifications/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "operationId": "GET_legal_entities-id-verifications",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_expandable_requirements"
+            },
+            {
+                "name": "is_synchronous",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/legal_entities_id_verifications_resource/is_synchronous/description"
+                },
+                "schema": {
+                    "default": false,
+                    "type": "boolean"
+                }
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_legal_entities-id-verifications/summary"
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_legal_entities-id-verifications/description"
+        }
+    },
+    "parameters": [
+        {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Resource-Id"
+            },
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/legal_entities_id_verifications_resource/id/description"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+	"amount" : -1000,
+	"create_time" : 1520471380,
+	"currency" : "USD",
+	"custom_data" : null,
+	"id" : "91e3d7f6-0fe7-4f66-a414-715fbece14e2",
+	"owner" : {
+		"id" : "46f481b3-a267-48e5-b6b6-e7685d3031f8",
+		"path" : "/accounts/46f481b3-a267-48e5-b6b6-e7685d3031f8",
+		"resource" : "accounts"
+	},
+	"path" : "/adjustments/91e3d7f6-0fe7-4f66-a414-715fbece14e2",
+	"reason": {
+		"reason_code": "ESCHEATMENT",
+		"reason_message": "Adjustment due to abandoned funds.",
+		"details": [
+			{
+				"detail_code": "escheatment",
+				"detail_message": "Abandoned funds escheated to state of account-holder."
+			}
+		]
+	},
+	"resource" : "adjustments",
+	"txnr_adjustment" : {
+		"id" : "a904c2cc-4eb1-4cba-bab5-8ff20c600f90",
+		"path" : "/transaction_records/a904c2cc-4eb1-4cba-bab5-8ff20c600f90",
+		"resource" : "transaction_records"
+	},
+	"type" : "debit",
+	"api_version": "3.0"
+}

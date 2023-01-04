@@ -1,0 +1,177 @@
+{
+    "get": {
+        "tags": [
+            "/recoveries/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/recoveries/get.resp.200.example.status_completed.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/recoveries/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_recoveries/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_recoveries/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_recoveries/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_recoveries/description"
+        },
+        "operationId": "GET_recoveries",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "name": "page",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/page/description"
+                },
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "page_size",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/page_size/description"
+                },
+                "schema": {
+                    "default": 10,
+                    "minimum": 1,
+                    "maximum": 50,
+                    "type": "integer"
+                }
+            },
+            {
+                "name": "create_time_start",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/create_time_start/description"
+                },
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "create_time_end",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/create_time_end/description"
+                },
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "owner_id",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/owner_id/description"
+                },
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "payout_method_type",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/payout_method_type/description"
+                },
+                "schema": {
+                    "enum": [
+                        "payout_bank_ca",
+                        "payout_bank_gb",
+                        "payout_bank_us",
+                        "paper_check"
+                    ],
+                    "x-enumDescriptions": {
+                        "$ref": "file:./descriptions/enum_info.shared.json#/payout_method/type"
+                    },
+                    "type": "string"
+                }
+            },
+            {
+                "name": "payout_method_id",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/payout_method_id/description"
+                },
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "status",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/recoveries_resource/status/description"
+                },
+                "schema": {
+                    "enum": [
+                        "pending",
+                        "completed",
+                        "failed"
+                    ],
+                    "x-enumDescriptions": {
+                        "$ref": "file:./descriptions/enum_info.shared.json#/recoveries/status"
+                    },
+                    "type": "string"
+                }
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_recoveries/summary"
+        }
+    }
+}

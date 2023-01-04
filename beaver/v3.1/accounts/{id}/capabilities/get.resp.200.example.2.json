@@ -1,0 +1,20 @@
+{
+	"id" : null,
+	"owner" : {
+		"id" : "d3f61e56-5d99-4895-af2d-a07ab48476e9",
+		"path" : "/accounts/d3f61e56-5d99-4895-af2d-a07ab48476e9",
+		"resource" : "accounts"
+	},
+	"path" : "/accounts/d3f61e56-5d99-4895-af2d-a07ab48476e9/capabilities",
+	"payments" : {
+		"enabled" : true
+	},
+	"payouts" : {
+		"enabled" : false
+	},
+	"terminals" : {
+		"enabled" : false
+	},
+	"resource" : "capabilities",
+	"api_version": "3.1"
+}

@@ -1,0 +1,104 @@
+{
+    "post": {
+        "tags": [
+            "/legal_entities/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/legal_entities/{id}/set_controller_password/post.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0.rc.4/legal_entities/{id}/set_controller_password/post.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "409": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/errors/409"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "429": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/errors/429"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "operationId": "POST_legal_entities-id-set-controller-password",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/summary"
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_legal_entities-id-set_controller_password/description"
+        }
+    },
+    "parameters": [
+        {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Resource-Id"
+            }
+        }
+    ]
+}

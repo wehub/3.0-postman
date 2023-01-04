@@ -1,0 +1,42 @@
+{
+	"next" : "/items?page=AQQHAAEX8yf1HDkrXqO7R-wy2joNU6ooRNCyDb-sSbbvR-8J6jKeFgpqprcIsuEnBh4fqImpR2eYjKIgSCirw2mhEFR7m5AsSj1OkG9emNFWhXQvreOczuQU7UzZ",
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"create_time" : 1390656130,
+			"description" : "Classic Iron Anvil",
+			"id" : "f48cd8e6-e802-4500-a0f9-3ab6228c6f23",
+			"owner" : {
+				"id" : "d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+				"path" : "/accounts/d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+				"resource" : "accounts"
+			},
+			"path" : "/items/f48cd8e6-e802-4500-a0f9-3ab6228c6f23",
+			"photos" : [],
+			"price" : 490,
+			"product_code" : "XYZ321",
+			"product_details" : {
+				"band" : "nike"
+			},
+			"product_name" : "Acme Anvil - 100 Lb",
+			"reference_number" : "abc_123456",
+			"resource" : "items",
+			"shipping_options" : [
+				"regular",
+				"expedited"
+			],
+			"state" : "active",
+			"terms" : {
+				"terms_text" : "lorem ipsum...",
+				"terms_uri" : "https://example.com/terms_of_service"
+			},
+			"uri" : "https://example.com/abc_123456",
+			"weight" : {
+				"units" : "pounds",
+				"weight" : 1
+			},
+			"api_version": "3.0"
+		}
+	]
+}

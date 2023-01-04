@@ -1,0 +1,885 @@
+{
+  "previous": "/billing_statements/{id}/transactions_summary?page=aaabc123def456",
+  "next": "/billing_statements/{id}/transactions_summary?page=cccde123fgh456",
+  "results": [
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 1,
+      "total_amount": 511246,
+      "currency": "USD",
+      "item_count": 94,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 23658,
+          "item_count": 5
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 30934,
+          "item_count": 7
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 54187,
+          "item_count": 9
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 402467,
+          "item_count": 73
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 2,
+      "total_amount": 241168,
+      "currency": "USD",
+      "item_count": 94,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 3418,
+          "item_count": 7
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 14375,
+          "item_count": 16
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 223375,
+          "item_count": 71
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 3,
+      "total_amount": 941700,
+      "currency": "USD",
+      "item_count": 39,
+      "summaries": [
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 569375,
+          "item_count": 4
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 372325,
+          "item_count": 35
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 4,
+      "total_amount": 77847,
+      "currency": "USD",
+      "item_count": 3,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 77847,
+          "item_count": 3
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 5,
+      "total_amount": 990031,
+      "currency": "USD",
+      "item_count": 19,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 91286,
+          "item_count": 1
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 66458,
+          "item_count": 1
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 184396,
+          "item_count": 5
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 647891,
+          "item_count": 12
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 6,
+      "total_amount": 71005,
+      "currency": "USD",
+      "item_count": 15,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 8820,
+          "item_count": 2
+        },
+        {
+          "fee_type": "CHARGEBACK",
+          "currency": "USD",
+          "total_amount": 4582,
+          "item_count": 1
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 287,
+          "item_count": 2
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 6024,
+          "item_count": 4
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 55874,
+          "item_count": 6
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 7,
+      "total_amount": -2020,
+      "currency": "USD",
+      "item_count": 23,
+      "summaries": [
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": -2020,
+          "item_count": 13
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 8,
+      "total_amount": 664938,
+      "currency": "USD",
+      "item_count": 27,
+      "summaries": [
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 87,
+          "item_count": 1
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 664851,
+          "item_count": 26
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 10,
+      "total_amount": 22203,
+      "currency": "USD",
+      "item_count": 15,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 6588,
+          "item_count": 6
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 417,
+          "item_count": 1
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 5711,
+          "item_count": 2
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 9487,
+          "item_count": 6
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 11,
+      "total_amount": 158,
+      "currency": "USD",
+      "item_count": 1,
+      "summaries": [
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 158,
+          "item_count": 1
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 12,
+      "total_amount": 1417191,
+      "currency": "USD",
+      "item_count": 52,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 6154,
+          "item_count": 3
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 15831,
+          "item_count": 5
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 341,
+          "item_count": 3
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 553269,
+          "item_count": 16
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 841596,
+          "item_count": 25
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 13,
+      "total_amount": 335,
+      "currency": "USD",
+      "item_count": 1,
+      "summaries": [
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 335,
+          "item_count": 1
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 14,
+      "total_amount": 1416065,
+      "currency": "USD",
+      "item_count": 33,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 9985,
+          "item_count": 2
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 6533,
+          "item_count": 4
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 884751,
+          "item_count": 17
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 514796,
+          "item_count": 10
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 15,
+      "total_amount": 926455,
+      "currency": "USD",
+      "item_count": 20,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 41584,
+          "item_count": 5
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 115,
+          "item_count": 2
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 884756,
+          "item_count": 13
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 16,
+      "total_amount": 1020642,
+      "currency": "USD",
+      "item_count": 33,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 87455,
+          "item_count": 6
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 148,
+          "item_count": 2
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 445871,
+          "item_count": 10
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 487168,
+          "item_count": 15
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 17,
+      "total_amount": 608128,
+      "currency": "USD",
+      "item_count": 30,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 51487,
+          "item_count": 6
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 44871,
+          "item_count": 5
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 63158,
+          "item_count": 4
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 448612,
+          "item_count": 15
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 18,
+      "total_amount": 448,
+      "currency": "USD",
+      "item_count": 1,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 448,
+          "item_count": 1
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 19,
+      "total_amount": 364,
+      "currency": "USD",
+      "item_count": 1,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 364,
+          "item_count": 1
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+
+      "year": 2019,
+      "month": 9,
+      "day": 20,
+      "total_amount": 156985,
+      "currency": "USD",
+      "item_count": 75,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 4784,
+          "item_count": 11
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 3315,
+          "item_count": 3
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 23415,
+          "item_count": 16
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 125471,
+          "item_count": 45
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 21,
+      "total_amount": 1574818,
+      "currency": "USD",
+      "item_count": 82,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 2500,
+          "item_count": 2
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 8845,
+          "item_count": 6
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 336,
+          "item_count": 4
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 941552,
+          "item_count": 17
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 621585,
+          "item_count": 53
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 22,
+      "total_amount": 1230130,
+      "currency": "USD",
+      "item_count": 65,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 77412,
+          "item_count": 5
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 63125,
+          "item_count": 9
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 852639,
+          "item_count": 20
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 236954,
+          "item_count": 31
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 23,
+      "total_amount": 700524,
+      "currency": "USD",
+      "item_count": 84,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 36925,
+          "item_count": 12
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 150,
+          "item_count": 1
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 326528,
+          "item_count": 28
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 336921,
+          "item_count": 43
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 24,
+      "total_amount": 31623,
+      "currency": "USD",
+      "item_count": 27,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 6521,
+          "item_count": 12
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 2541,
+          "item_count": 3
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 22561,
+          "item_count": 12
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 25,
+      "total_amount": 709128,
+      "currency": "USD",
+      "item_count": 84,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 1521,
+          "item_count": 4
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 58931,
+          "item_count": 15
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 33691,
+          "item_count": 28
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 614985,
+          "item_count": 37
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 26,
+      "total_amount": 822509,
+      "currency": "USD",
+      "item_count": 68,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 55814,
+          "item_count": 14
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 51214,
+          "item_count": 21
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 715481,
+          "item_count": 33
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 27,
+      "total_amount": 720322,
+      "currency": "USD",
+      "item_count": 45,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 669,
+          "item_count": 1
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 5145,
+          "item_count": 3
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 51294,
+          "item_count": 14
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 663214,
+          "item_count": 27
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 28,
+      "total_amount": 898745,
+      "currency": "USD",
+      "item_count": 70,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 2561,
+          "item_count": 5
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 33157,
+          "item_count": 14
+        },
+        {
+          "fee_type": "ECHECK",
+          "currency": "USD",
+          "total_amount": 119,
+          "item_count": 2
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 231456,
+          "item_count": 2
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 631452,
+          "item_count": 25
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 29,
+      "total_amount": 1417495,
+      "currency": "USD",
+      "item_count": 68,
+      "summaries": [
+        {
+          "fee_type": "AMEX",
+          "currency": "USD",
+          "total_amount": 2336,
+          "item_count": 2
+        },
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 4157,
+          "item_count": 2
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 696421,
+          "item_count": 30
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 714581,
+          "item_count": 34
+        }
+      ],
+      "api_version": "3.0"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "day": 30,
+      "total_amount": 511556,
+      "currency": "USD",
+      "item_count": 54,
+      "summaries": [
+        {
+          "fee_type": "DISCOVER",
+          "currency": "USD",
+          "total_amount": 552,
+          "item_count": 2
+        },
+        {
+          "fee_type": "MASTERCARD",
+          "currency": "USD",
+          "total_amount": 69415,
+          "item_count": 17
+        },
+        {
+          "fee_type": "VISA",
+          "currency": "USD",
+          "total_amount": 441589,
+          "item_count": 35
+        }
+      ],
+      "api_version": "3.0"
+    }
+  ],
+  "api_version": "3.0"
+}

@@ -1,0 +1,41 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "create_time": {
+            "type": "integer",
+            "format": "int64",
+            "minimum": 0
+        },
+        "expire_time": {
+            "type": "integer",
+            "format": "int64",
+            "minimum": 0
+        },
+        "id": {
+            "description": "The generated token id.",
+            "type": "string"
+        },
+        "owner": {
+            "$ref": "file:./shared/v3.0/owner/owner_is_application.schema.json"
+        },
+        "path": {
+            "type": "string",
+            "nullable": true
+        },
+        "resource": {
+            "$ref": "file:./shared/v3.0/resources/shared.schema.json#/definitions/resource-tokens"
+        },
+        "api_version": {
+            "$ref": "file:./shared/v3.0/version/shared.schema.json#/definitions/api_version"
+        }
+    },
+    "required": [
+        "id",
+        "path",
+        "resource",
+        "owner",
+        "create_time",
+        "expire_time"
+    ],
+    "type": "object"
+}

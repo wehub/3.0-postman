@@ -1,0 +1,7 @@
+{
+	"type" : "credit_card",
+	"credit_card" : {
+		"recurring" : true,
+		"card_on_file" : true
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"amounts" : {
+		"amount" : 1500,
+		"currency" : "USD",
+		"fee_amount" : 150
+	},
+	"custom_data" : {
+		"foo" : "bar"
+	}
+}

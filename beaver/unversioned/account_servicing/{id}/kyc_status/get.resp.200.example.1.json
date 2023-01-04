@@ -1,0 +1,65 @@
+{
+  "entity_verification": {
+    "verified": false,
+    "has_errant_fields": true,
+    "errant_fields": [
+      {
+        "field": "email",
+        "blockage": "BLOCKAGE_IS_NULL"
+      }
+    ],
+    "require_docs": true,
+    "documents": [
+      {
+        "document_uploaded_at": 1614827290,
+        "file_type": "miscellaneous_compliance_doc",
+        "state": "DOC_STATE_VERIFIED",
+        "source": "DOC_SOURCE_EXTERNAL"
+      },
+      {
+        "document_uploaded_at": 1614827290,
+        "file_type": "current_utility_bill",
+        "state": "DOC_STATE_IN_REVIEW",
+        "source": "DOC_SOURCE_EXTERNAL"
+      }
+    ]
+  },
+  "controller": {
+    "verified": true,
+    "has_errant_fields": false,
+    "errant_fields": [],
+    "require_docs": false,
+    "documents": []
+  },
+  "additional_representatives": {
+    "representative_0": {
+      "verified": false,
+      "has_errant_fields": true,
+      "errant_fields": [
+        {
+          "field": "address",
+          "blockage": "BLOCKAGE_IS_PO_BOX"
+        },
+        {
+          "field": "DOB",
+          "blockage": "BLOCKAGE_IS_NULL"
+        }
+      ],
+      "require_docs": false,
+      "documents": []
+    },
+    "representative_1": {
+      "verified": true,
+      "has_errant_fields": false,
+      "errant_fields": [],
+      "require_docs": false,
+      "documents": []
+    }
+  },
+  "legal_entity": {
+    "states": [
+      "KYC_STATE_REQUIRE_DOCS"
+    ],
+    "documents": []
+  }
+}

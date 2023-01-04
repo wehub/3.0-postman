@@ -1,0 +1,167 @@
+{
+  "previous": null,
+  "next": "/session_tokens?page=eyJ0eXBlIjogbnVsbCwgImFjY291bnRfaWQiOiBudWxsLCAiY3JlYXRlX3RpbWVfc3RhcnQiOiAiMTk3MC0wMS0wMSAwMDowMDowMCIsICJjcmVhdGVfdGltZV9lbmQiOiAiMjAyMS0wNC0yMyAxNzozMDoxNS4xMDkxNDQiLCAic3RhdGUiOiBudWxsLCAicGFnZSI6IDIsICJwYWdlX3NpemUiOiAxMH0",
+  "results": [
+	{
+	  "id": "614cc73c-9eda-41e1-a5b2-807e4a905775",
+	  "path": "/session_tokens/614cc73c-9eda-41e1-a5b2-807e4a905775",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "64a7b013-0e9b-4e30-abff-60e909984c43",
+		"resource": "accounts",
+		"path": "/accounts/64a7b013-0e9b-4e30-abff-60e909984c43"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619198505,
+	  "expire_time": 1619284905,
+	  "session_token": "stg_MTA0X2Y3NjM4OTAxLWFiNGUtNDA4OC1hYTQyLWM3YjE5YzllYWExNA",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "64a7b013-0e9b-4e30-abff-60e909984c43"
+	  }
+	},
+	{
+	  "id": "849325b7-15c8-4651-8e31-c1faf02e8beb",
+	  "path": "/session_tokens/849325b7-15c8-4651-8e31-c1faf02e8beb",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "ebd7890d-a2a1-4cac-9030-d9e0ffd3c33b",
+		"resource": "accounts",
+		"path": "/accounts/ebd7890d-a2a1-4cac-9030-d9e0ffd3c33b"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619196329,
+	  "expire_time": 1619282729,
+	  "session_token": "stg_MTAzXzY5YjhkYmNlLTlmMGUtNDQ3ZS05MTUxLWMwOGIwMWM5ZGNlNg",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "ebd7890d-a2a1-4cac-9030-d9e0ffd3c33b"
+	  }
+	},
+	{
+	  "id": "85c3dce9-8d17-4cc5-bb53-1cca2301f801",
+	  "path": "/session_tokens/85c3dce9-8d17-4cc5-bb53-1cca2301f801",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "074544b1-0bb2-4989-9e27-773063ba1bbf",
+		"resource": "accounts",
+		"path": "/accounts/074544b1-0bb2-4989-9e27-773063ba1bbf"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619196314,
+	  "expire_time": 1619282714,
+	  "session_token": "stg_MTAyX2RjN2Q0NTJkLTk0YTctNGZhOC05NDViLWVlMjdmZDI0MDM2Mg",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "074544b1-0bb2-4989-9e27-773063ba1bbf"
+	  }
+	},
+	{
+	  "id": "1f60cd21-703b-440d-b469-9b6791ece86b",
+	  "path": "/session_tokens/1f60cd21-703b-440d-b469-9b6791ece86b",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "f62dce34-9f09-4442-a3d5-ffde5217a72e",
+		"resource": "accounts",
+		"path": "/accounts/f62dce34-9f09-4442-a3d5-ffde5217a72e"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619184586,
+	  "expire_time": 1619270986,
+	  "session_token": "stg_MTAxX2QzYmY2ZWQzLTBhNzMtNDY4My04NTE2LWRkMTkxNjE5OGJmMg",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "f62dce34-9f09-4442-a3d5-ffde5217a72e"
+	  }
+	},
+	{
+	  "id": "fc02e9a6-c081-42a2-8470-a335e022ea09",
+	  "path": "/session_tokens/fc02e9a6-c081-42a2-8470-a335e022ea09",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "4c8e5932-5606-4fb3-aeb3-c6abffdccf83",
+		"resource": "accounts",
+		"path": "/accounts/4c8e5932-5606-4fb3-aeb3-c6abffdccf83"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619137135,
+	  "expire_time": 1619223535,
+	  "session_token": "stg_MTAwX2MzZWRhYWVjLWZjNTEtNGQ2OS1hNGVjLTBjZmZlYmMyMjZhZg",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "4c8e5932-5606-4fb3-aeb3-c6abffdccf83"
+	  }
+	},
+	{
+	  "id": "8ea519af-c993-49ca-8b3e-cbc94b2e5d6b",
+	  "path": "/session_tokens/8ea519af-c993-49ca-8b3e-cbc94b2e5d6b",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "8fd3f37c-9369-463e-be66-d206a04e9b9b",
+		"resource": "accounts",
+		"path": "/accounts/8fd3f37c-9369-463e-be66-d206a04e9b9b"
+	  },
+	  "state": "deleted",
+	  "api_version": "3.0",
+	  "create_time": 1619135026,
+	  "expire_time": 1619221426,
+	  "session_token": "stg_OTdfYzhhZDM0YjgtNGRhOC00YzQ4LTk4NGItNzUxNzUxNDViYTZk",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "8fd3f37c-9369-463e-be66-d206a04e9b9b"
+	  }
+	},
+	{
+	  "id": "d0180caf-94ea-4e76-b18c-f25478ab4285",
+	  "path": "/session_tokens/d0180caf-94ea-4e76-b18c-f25478ab4285",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "1a106081-8dd9-417a-bb2f-98e3e78a4d08",
+		"resource": "accounts",
+		"path": "/accounts/1a106081-8dd9-417a-bb2f-98e3e78a4d08"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619135006,
+	  "expire_time": 1619221406,
+	  "session_token": "stg_OTZfZDI3MWY3NGItNDgxOS00ZGVkLTljZWMtMzUzOWEzMmQzMDY3",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "1a106081-8dd9-417a-bb2f-98e3e78a4d08"
+	  }
+	},
+	{
+	  "id": "91171091-08f7-4543-a489-b9e8d40df638",
+	  "path": "/session_tokens/91171091-08f7-4543-a489-b9e8d40df638",
+	  "resource": "session_tokens",
+	  "type": "mobile_session",
+	  "owner": {
+		"id": "b5fe9ef2-3736-41ec-a0f1-17b6bf6dbc85",
+		"resource": "accounts",
+		"path": "/accounts/b5fe9ef2-3736-41ec-a0f1-17b6bf6dbc85"
+	  },
+	  "state": "active",
+	  "api_version": "3.0",
+	  "create_time": 1619133705,
+	  "expire_time": 1619220105,
+	  "session_token": "stg_OTVfOWVhMWFmMTEtNTZkZC00MWRmLTk0OGItNjQyMzliZjA3MzNk",
+	  "mobile_session": {
+		"time_to_live": 86400,
+		"account_id": "b5fe9ef2-3736-41ec-a0f1-17b6bf6dbc85"
+	  }
+	}
+  ],
+  "api_version": "3.0"
+}

@@ -1,0 +1,449 @@
+{
+	"next" : null,
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"create_time" : 1512429453,
+			"custom_data" : null,
+			"id" : "00000000-6261-5553-0000-000000000265",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6261-5553-0000-000000000265",
+			"payment_bank_us" : {
+				"account_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94025",
+						"region" : ""
+					},
+					"email" : "example@wepay.com",
+					"holder_name" : "John Snow",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"account_type" : "checking",
+				"last_four" : "6789"
+			},
+			"resource" : "payment_methods",
+			"status" : "unverified",
+			"type" : "payment_bank_us",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429343,
+			"custom_data" : null,
+			"id" : "00000000-6261-5553-0000-000000000099",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6261-5553-0000-000000000099",
+			"payment_bank_us" : {
+				"account_holder" : {
+					"address" : {
+						"city" : "San Francisco",
+						"country" : "US",
+						"line1" : "123 Fake Street",
+						"line2" : "",
+						"postal_code" : "94101",
+						"region" : "CA"
+					},
+					"email" : "example@example.com",
+					"holder_name" : "Golden Boy",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"account_type" : "checking",
+				"last_four" : "3099"
+			},
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "payment_bank_us",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429098,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "400383",
+				"card_brand" : "visa",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94040",
+						"region" : ""
+					},
+					"email" : "bob@example.com",
+					"holder_name" : "Bob Belcher",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"display_name" : "Visa xxxxxx4018",
+				"expiration_month" : 10,
+				"expiration_year" : 2019,
+				"last_four" : "4018",
+				"virtual_terminal_mode" : null,
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : null,
+			"id" : "00000000-6363-0000-0000-00003be52b59",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-00003be52b59",
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429211,
+			"custom_data" : null,
+			"id" : "00000000-6261-5553-0000-000000000099",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6261-5553-0000-000000000099",
+			"payment_bank_us" : {
+				"account_holder" : {
+					"address" : {
+						"city" : "San Francisco",
+						"country" : "US",
+						"line1" : "123 Fake Street",
+						"line2" : "",
+						"postal_code" : "94101",
+						"region" : "CA"
+					},
+					"email" : "example@example.com",
+					"holder_name" : "Golden Boy",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"account_type" : "checking",
+				"last_four" : "3099"
+			},
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "payment_bank_us",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429555,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "400383",
+				"card_brand" : "visa",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94040",
+						"region" : ""
+					},
+					"email" : "bob@example.com",
+					"holder_name" : "Bob Belcher",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"display_name" : "Visa xxxxxx4018",
+				"expiration_month" : 10,
+				"expiration_year" : 2019,
+				"last_four" : "4018",
+				"virtual_terminal_mode" : null,
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : null,
+			"id" : "00000000-6363-0000-0000-000062a630b9",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-000062a630b9",
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429009,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "400383",
+				"card_brand" : "visa",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94040",
+						"region" : ""
+					},
+					"email" : "bob@example.com",
+					"holder_name" : "Bob Belcher",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"display_name" : "Visa xxxxxx4018",
+				"expiration_month" : 10,
+				"expiration_year" : 2019,
+				"last_four" : "4018",
+				"virtual_terminal_mode" : null,
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : null,
+			"id" : "00000000-6363-0000-0000-000049c22024",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-000049c22024",
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429022,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "400383",
+				"card_brand" : "visa",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94040",
+						"region" : ""
+					},
+					"email" : "bob@example.com",
+					"holder_name" : "Bob Belcher",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"display_name" : "Visa xxxxxx4018",
+				"expiration_month" : 10,
+				"expiration_year" : 2019,
+				"last_four" : "4018",
+				"virtual_terminal_mode" : null,
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : null,
+			"id" : "00000000-6363-0000-0000-000070d1a605",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-000070d1a605",
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429977,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "549619",
+				"card_brand" : "mastercard",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94025",
+						"region" : ""
+					},
+					"email" : "example@wepay.com",
+					"holder_name" : "John Snow",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"display_name" : "MasterCard xxxxxx4769",
+				"expiration_month" : 4,
+				"expiration_year" : 2020,
+				"last_four" : "4769",
+				"virtual_terminal_mode" : "mobile",
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : {
+				"my_key" : "invoice #54321"
+			},
+			"id" : "00000000-6363-0000-0000-000035a38eb9",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-000035a38eb9",
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429995,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "549619",
+				"card_brand" : "mastercard",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94025",
+						"region" : ""
+					},
+					"email" : "example@wepay.com",
+					"holder_name" : "John Snow",
+					"phone" : {
+						"country_code" : null,
+						"phone_number" : null,
+						"type": null
+					}
+				},
+				"display_name" : "MasterCard xxxxxx4769",
+				"expiration_month" : 4,
+				"expiration_year" : 2020,
+				"last_four" : "4769",
+				"virtual_terminal_mode" : null,
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : null,
+			"id" : "00000000-6363-0000-0000-00001e7498e6",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-00001e7498e6",
+			"resource" : "payment_methods",
+			"status" : "verified",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1512429222,
+			"credit_card" : {
+				"auto_update" : false,
+				"backing_display_name" : null,
+				"bin" : "549619",
+				"card_brand" : "mastercard",
+				"card_entry_type" : "card_keyed",
+				"card_holder" : {
+					"address" : {
+						"city" : "",
+						"country" : "US",
+						"line1" : "",
+						"line2" : "",
+						"postal_code" : "94025",
+						"region" : ""
+					},
+					"email" : "example@wepay.com",
+					"holder_name" : "John Snow",
+					"phone" : {
+						"country_code" : "1",
+						"phone_number" : "812345678",
+						"type": null
+					}
+				},
+				"display_name" : "MasterCard xxxxxx4769",
+				"expiration_month" : 4,
+				"expiration_year" : 2020,
+				"last_four" : "4769",
+				"virtual_terminal_mode" : null,
+				"card_on_file" : false,
+				"recurring" : false,
+				"cvv_provided" : true
+			},
+			"custom_data" : {
+				"Another Key" : "some value",
+				"a_reference_number" : 4
+			},
+			"id" : "00000000-6363-0000-0000-000097b37990",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/payment_methods/00000000-6363-0000-0000-000097b37990",
+			"resource" : "payment_methods",
+			"status" : "deleted",
+			"type" : "credit_card",
+			"api_version": "3.0"
+		}
+	]
+}

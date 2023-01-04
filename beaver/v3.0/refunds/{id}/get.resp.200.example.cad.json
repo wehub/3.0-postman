@@ -1,0 +1,40 @@
+{
+	"amounts" : {
+		"total_amount" : 100,
+		"currency" : "CAD",
+		"fee_refund_amount" : 0
+	},
+	"create_time" : 1509140695,
+	"custom_data" : null,
+	"failure_reason" : null,
+	"id" : "ea2cddfc-99df-4342-a2e7-f168234a72e1",
+	"order" : null,
+	"owner" : {
+		"id" : "40200612-e849-4172-8308-657cf3a0de27",
+		"path" : "/accounts/40200612-e849-4172-8308-657cf3a0de27",
+		"resource" : "accounts"
+	},
+	"path" : "/refunds/ea2cddfc-99df-4342-a2e7-f168234a72e1",
+	"payment" : {
+		"id" : "8752cf7a-943c-4c47-bd5d-9121fdd415df",
+		"path" : "/payments/8752cf7a-943c-4c47-bd5d-9121fdd415df",
+		"resource" : "payments"
+	},
+	"payment_method" : {
+		"id" : "00000000-6363-0000-0000-0000c27db2f3",
+		"path" : "/payment_methods/00000000-6363-0000-0000-0000c27db2f3",
+		"resource" : "payment_methods"
+	},
+	"pending_reasons" : null,
+	"refund_reason" : "example refund reason",
+	"resource" : "refunds",
+	"status" : "completed",
+	"txnr_app_fee_refund" : null,
+	"txnr_merchant_refund" : {
+		"id" : "17d4287c-6c07-4adb-a340-fcdf96b6a01a",
+		"path" : "/transaction_records/17d4287c-6c07-4adb-a340-fcdf96b6a01a",
+		"resource" : "transaction_records"
+	},
+	"api_version": "3.0",
+	"reference_id": "reference_id_0"
+}

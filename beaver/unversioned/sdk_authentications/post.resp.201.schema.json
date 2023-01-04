@@ -1,0 +1,62 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "enum" : [
+                "mobile_pos",
+                "browser_pos"
+            ],
+            "type" : "string",
+            "x-isOneOfKey" : true,
+            "description": "The type of vendors being authenticated.",
+            "x-enumDescriptions": {
+                "$ref": "file:./descriptions/enum_info.shared.json#/unversioned/sdk_authentication_type"
+            }
+        },
+        "browser_pos": {
+            "type": "object",
+            "properties": {
+                "url": {
+                    "type": "string",
+                    "description": "An input that is used by the browser SDK during initialization."
+                },
+                "jwt": {
+                    "type": "string",
+                    "description": "An input that is used by the browser SDK during initialization."
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "url",
+                "jwt"
+            ]
+        },
+        "mobile_pos": {
+            "type": "object",
+            "properties": {
+                "username": {
+                    "type": "string",
+                    "description": "An input that is used by the vendor SDK during initialization."
+                },
+                "password": {
+                    "type": "string",
+                    "description": "An input that is used by the vendor SDK during initialization."
+                },
+                "vendor_token": {
+                    "type": "string",
+                    "description": "An input that is used by the vendor SDK during initialization."
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "username",
+                "password",
+                "vendor_token"
+            ]
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "type"
+    ]
+}

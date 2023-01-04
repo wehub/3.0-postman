@@ -1,0 +1,8 @@
+{
+	"payouts": {
+		"application_block": {
+			"is_blocked": true,
+			"reason": "This is a sham!"
+		}
+	}
+}

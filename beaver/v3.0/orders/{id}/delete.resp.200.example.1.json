@@ -1,0 +1,165 @@
+{
+	"alternate_tax_amount" : 35,
+	"alternate_tax_id" : "11",
+	"buyer" : {
+		"id" : "1490656130",
+		"path" : "/legal_entities/1490656130",
+		"resource" : "legal_entities"
+	},
+	"create_time" : 1390656130,
+	"customer_reference_number" : "cust# 1234",
+	"delivery_type" : "point_of_sale",
+	"discount_amount" : 0,
+	"duty_amount" : 0,
+	"freight_amount" : 0,
+	"grand_total_amount" : 1000,
+	"id" : "f48cd8e6-e802-4500-a0f9-3ab6228c6f23",
+	"line_items" : [
+		{
+			"commodity_code" : "ABC123",
+			"currency" : "USD",
+			"description" : "Classic Iron Anvil",
+			"discount_amount" : 0,
+			"discount_indicator" : null,
+			"gross_net_indicator" : null,
+			"item" : {
+				"create_time" : 1390656130,
+				"description" : "Classic Iron Anvil",
+				"id" : "1",
+				"owner" : {
+					"id" : "d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+					"path" : "/accounts/d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+					"resource" : "accounts"
+				},
+				"path" : "/items/f48cd8e6-e802-4500-a0f9-3ab6228c6f23",
+				"photos" : [],
+				"price" : 490,
+				"product_code" : "XYZ321",
+				"product_details" : {
+					"band" : "nike"
+				},
+				"product_name" : "Acme Anvil - 100 Lb",
+				"reference_number" : "abc_123456",
+				"resource" : "items",
+				"shipping_options" : [
+					"regular",
+					"expedited"
+				],
+				"state" : "deleted",
+				"terms" : {
+					"terms_text" : "lorem ipsum...",
+					"terms_uri" : "https://example.com/terms_of_service"
+				},
+				"uri" : "https://example.com/abc_123456",
+				"weight" : {
+					"units" : "pounds",
+					"weight" : 1
+				}
+			},
+			"quantity" : 1,
+			"tax_amount" : 5,
+			"tax_rate" : 1.99,
+			"tax_type_applied" : "VAT",
+			"total_amount" : 500,
+			"unit_of_measure" : "count",
+			"unit_price" : 490
+		},
+		{
+			"commodity_code" : "XYZ999",
+			"currency" : "USD",
+			"description" : "Classic Catapult",
+			"discount_amount" : 0,
+			"discount_indicator" : null,
+			"gross_net_indicator" : null,
+			"item" : {
+				"create_time" : 1390656130,
+				"description" : "Classic Catapult",
+				"id" : "2",
+				"owner" : {
+					"id" : "d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+					"path" : "/accounts/d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+					"resource" : "accounts"
+				},
+				"path" : "/items/f48cd8e6-e802-4500-a0f9-3ab6228c6f23",
+				"photos" : [
+					"http://imgur.com/o4Qk0AF"
+				],
+				"price" : 490,
+				"product_code" : "AAAXYZ321",
+				"product_name" : "Acme Catapult",
+				"reference_number" : "abc_654321",
+				"resource" : "items",
+				"shipping_options" : [
+					"regular",
+					"expedited"
+				],
+				"state" : "deleted",
+				"terms" : {
+					"terms_text" : "lorem ipsum...",
+					"terms_uri" : "https://example.com/terms_of_service"
+				},
+				"uri" : "https://example.com/abc_654321",
+				"weight" : {
+					"units" : "pounds",
+					"weight" : 1
+				}
+			},
+			"quantity" : 1,
+			"tax_amount" : 5,
+			"tax_rate" : 1.99,
+			"tax_type_applied" : "VAT",
+			"total_amount" : 500,
+			"unit_of_measure" : "count",
+			"unit_price" : 490
+		}
+	],
+	"long_description" : null,
+	"notes" : "urgent order",
+	"owner" : {
+		"id" : "d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+		"path" : "/accounts/d7608b20-fea5-4eb5-bd30-d3f58435e78b",
+		"resource" : "accounts"
+	},
+	"path" : "/orders/f48cd8e6-e802-4500-a0f9-3ab6228c6f23",
+	"reference_number" : "invoice #54321",
+	"resource" : "orders",
+	"service_address" : {
+		"city" : "San Francisco",
+		"country" : "US",
+		"line1" : "123 Fake Street",
+		"postal_code" : "94101",
+		"region" : "CA"
+	},
+	"ship_from_address" : {
+		"city" : "San Francisco",
+		"country" : "US",
+		"line1" : "123 Fake Street",
+		"postal_code" : "94101",
+		"region" : "CA"
+	},
+	"ship_to_address" : {
+		"city" : "San Francisco",
+		"country" : "US",
+		"line1" : "123 Fake Street",
+		"postal_code" : "94101",
+		"region" : "CA"
+	},
+	"shipping_status" : {
+		"actual_delivery_time" : null,
+		"carrier" : "UPS",
+		"expected_delivery_time" : 1490656130,
+		"shipping_time" : 1390656130,
+		"tracking_number" : "1Z34567890",
+		"tracking_uri" : "https://example.com/ups/1Z34567890"
+	},
+	"short_description" : "Donation to ABC campaign",
+	"state" : "deleted",
+	"status" : "paid",
+	"tax_amount" : 35,
+	"type" : "goods",
+	"vat_amount" : 5,
+	"vat_rate" : 1.99,
+	"discount_program_name": "Everything is 50% off",
+	"tip_amount": 0,
+	"api_version": "3.0"
+}

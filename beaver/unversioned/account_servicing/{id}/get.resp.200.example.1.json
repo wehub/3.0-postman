@@ -1,0 +1,592 @@
+{
+  "account": {
+	"balances": {
+	  "currencies": {}
+	},
+	"beneficiary": {
+	  "id": "3b033051-229e-4898-95e4-f5be662fe5d6",
+	  "resource": "legal_entities",
+	  "path": "/internal/legal_entities/3b033051-229e-4898-95e4-f5be662fe5d6"
+	},
+	"create_time": 1616543464,
+	"id": "e9de64cd-3d8e-4580-8c0c-d7a8effea4da",
+	"incoming_payments": {
+	  "accepted_methods": [
+		"payment_bank",
+		"visa",
+		"mastercard",
+		"american_express",
+		"discover",
+		"jcb",
+		"diners_club"
+	  ]
+	},
+	"industry": {
+	  "merchant_category_code": "9222",
+	  "category_detail": null
+	},
+	"name": "api-3337 test",
+	"payout": {
+	  "default_currency": "USD",
+	  "currencies": {
+		"USD": null
+	  }
+	},
+	"platform_onboarding_time": null,
+	"description": "this is merchant account test smb ops"
+  },
+  "legal_entity": {
+	"address": {
+	  "city": "San Francisco",
+	  "country": "US",
+	  "line1": "123 Fake Street",
+	  "postal_code": "94101",
+	  "region": "CA"
+	},
+	"country": "US",
+	"create_time": 1616543425,
+	"description": "The Foo Bar Charity is very important.",
+	"entity_country_info": {
+	  "US": {
+		"legal_form": "corporation",
+		"employer_identification_number": "111111111"
+	  }
+	},
+	"entity_name": "Foo Bar Charity",
+	"id": "3b033051-229e-4898-95e4-f5be662fe5d6",
+	"phone": {
+	  "country_code": "+1",
+	  "phone_number": "8123693233"
+	},
+	"primary_url": "https://www.fearlessqqqfeatures.org",
+	"terms_of_service": {
+	  "acceptance_time": 1490656130,
+	  "original_ip": "12.37.161.213"
+	},
+	"controller": {
+	  "is_beneficial_owner": true,
+	  "date_of_birth_is_present": true,
+	  "address": {
+		"city": "Beverly Hills",
+		"country": "US",
+		"line1": "456 Nocturn Alley",
+		"line2": "line2",
+		"postal_code": "90210",
+		"region": "CA"
+	  },
+	  "email": "asd@qq.com",
+	  "email_is_verified": true,
+	  "name": {
+		"first": "Foo",
+		"last": "Bar"
+	  },
+	  "phone": {
+		"country_code": "+1",
+		"phone_number": "5556667777"
+	  },
+	  "job_title": "CEO"
+	},
+	"additional_representatives": {
+	  "representative_0": {
+		"is_beneficial_owner": null,
+		"date_of_birth_is_present": true,
+		"address": {
+		  "line1": "456 Nocturn Alley",
+		  "city": "Beverly Hills",
+		  "postal_code": "90210",
+		  "region": "CA",
+		  "country": "US"
+		},
+		"email": null,
+		"email_is_verified": false,
+		"name": {
+		  "first": "Bar",
+		  "last": "Baz"
+		},
+		"phone": {
+		  "country_code": "+1",
+		  "phone_number": "8123693266"
+		},
+		"job_title": null,
+		"is_auxiliary_controller": null
+	  },
+	  "representative_3": {
+		"is_beneficial_owner": null,
+		"date_of_birth_is_present": true,
+		"address": {
+		  "line1": "456 Nocturn Alley",
+		  "city": "Beverly Hills",
+		  "postal_code": "90210",
+		  "region": "CA",
+		  "country": "US"
+		},
+		"email": null,
+		"email_is_verified": false,
+		"name": {
+		  "first": "Matt",
+		  "last": "Wee"
+		},
+		"phone": {
+		  "country_code": "+1",
+		  "phone_number": "5556667777"
+		},
+		"job_title": null,
+		"is_auxiliary_controller": true
+	  }
+	},
+	"verifications": {
+	  "entity_verification": {
+		"verified": true,
+		"current_issues": [],
+		"documents": []
+	  },
+	  "controller": {
+		"personal_verification": {
+		  "verified": true,
+		  "current_issues": [],
+		  "documents": []
+		}
+	  },
+	  "additional_representatives": {
+		"representative_0": {
+		  "personal_verification": {
+			"verified": true,
+			"current_issues": [],
+			"documents": []
+		  },
+		  "reference_id": "representative_0_reference_id"
+		},
+		"representative_3": {
+		  "personal_verification": {
+			"verified": true,
+			"current_issues": [],
+			"documents": []
+		  },
+		  "reference_id": "representative_1_reference_id"
+		}
+	  }
+	}
+  },
+	"app": {
+		"id": "41720",
+		"name": "WePay",
+		"support_info": {
+			"product_type": "not_specified",
+			"support_offering": "not_specified",
+			"merchant_ic_plus": "disabled",
+			"referral_type": "",
+			"sla": 24,
+			"ticket_sharing": "not_specified",
+			"available_support_channels": [],
+			"technical_account_manager": "",
+			"relationship_manager": ""
+		},
+		"api": {
+			"attempt_v3_migration": false,
+			"phone_endpoint_enabled": false,
+			"risk_beneficiary_endpoint_enabled": false,
+			"can_use_batch_endpoint": true,
+			"can_use_checkout_auto_release": false,
+			"can_reset_mfa": false,
+			"can_request_review": false,
+			"can_use_user_register": true,
+			"can_use_account_create": true,
+			"can_use_checkout_create": true,
+			"can_use_inline_cc_checkout": true,
+			"can_use_delegate_endpoints": false,
+			"credit_card": {
+				"create_allow_optional_cvv": false,
+				"can_create_without_user_details": false,
+				"batch_auto_update_enabled": false,
+				"real_time_auto_update_enabled": false
+			},
+			"payment_bank": {
+				"verify_endpoint_enabled": false
+			},
+			"membership": {
+				"allow_unconfirmed_creation": false,
+				"can_create_admin": false
+			},
+			"mfa": {
+				"skip_first_email": false,
+				"partner_managed_mfa": false,
+				"enabled_for_api_access": false
+			},
+			"kyc": {
+				"enable_for_pending_users": false,
+				"can_use_get_details_endpoint": false
+			},
+			"sso": {
+				"redirect_uri": "",
+				"login_error_handler_uri": ""
+			},
+			"v2": {
+				"endpoints_enabled": {
+					"v2/account": true,
+					"v2/account/batch_migrate": true,
+					"v2/account/block_withdrawals": true,
+					"v2/account/check_block_withdrawals": true,
+					"v2/account/create": true,
+					"v2/account/find": true,
+					"v2/account/get_update_uri": true,
+					"v2/account/kyc": true,
+					"v2/account/kyc/authorize": true,
+					"v2/account/kyc/create": true,
+					"v2/account/kyc/get_details": true,
+					"v2/account/kyc/modify": true,
+					"v2/account/lookup_v3_id": true,
+					"v2/account/membership/remove": true,
+					"v2/account/migrate": true,
+					"v2/account/modify": true,
+					"v2/account/request_review": true,
+					"v2/account/settlement_setup": true,
+					"v2/app": true,
+					"v2/app/modify": true,
+					"v2/bank_account/authorize": true,
+					"v2/bank_account/create": true,
+					"v2/batch/create": true,
+					"v2/billing_statement": true,
+					"v2/billing_statement/fees_summary": true,
+					"v2/billing_statement/find": true,
+					"v2/billing_statement/transactions_summary": true,
+					"v2/checkout": true,
+					"v2/checkout/capture": true,
+					"v2/checkout/create": true,
+					"v2/checkout/lookup_v3_id": true,
+					"v2/checkout/release": true,
+					"v2/checkout/signature/create": true,
+					"v2/credit_card": true,
+					"v2/credit_card/auth_reverse": true,
+					"v2/credit_card/authorize": true,
+					"v2/credit_card/create": true,
+					"v2/credit_card/create_androidpay": true,
+					"v2/credit_card/create_applepay": true,
+					"v2/credit_card/create_chasepay": true,
+					"v2/credit_card/create_emv": true,
+					"v2/credit_card/create_external": true,
+					"v2/credit_card/create_swipe": true,
+					"v2/credit_card/enable_recurring": true,
+					"v2/credit_card/failed_authorization_external": true,
+					"v2/credit_card/find": true,
+					"v2/credit_card/lookup_v3_id": true,
+					"v2/credit_card/modify": true,
+					"v2/credit_card/transfer": true,
+					"v2/credit_card/validate_applepay_merchant": true,
+					"v2/credit_card/void": true,
+					"v2/dispute": true,
+					"v2/dispute/concede": true,
+					"v2/dispute/modify": true,
+					"v2/notification": true,
+					"v2/notification_preference": true,
+					"v2/notification_preference/create": true,
+					"v2/notification_preference/delete": true,
+					"v2/notification_preference/find": true,
+					"v2/notification_preference/modify": true,
+					"v2/order": true,
+					"v2/order/find": true,
+					"v2/payment_bank": true,
+					"v2/payment_bank/lookup_v3_id": true,
+					"v2/payment_bank/persist": true,
+					"v2/payment_bank/verify": true,
+					"v2/phone/id_check": true,
+					"v2/phone/live_status": true,
+					"v2/phone/reverse_lookup": true,
+					"v2/phone/risk_score": true,
+					"v2/report": true,
+					"v2/report/create": true,
+					"v2/report/find": true,
+					"v2/sdk/generate_session_token": true,
+					"v2/sdk/login": true,
+					"v2/settlement_bank/authorize": true,
+					"v2/settlement_bank/create": true,
+					"v2/user": true,
+					"v2/user/change_email": true,
+					"v2/user/logout": true,
+					"v2/user/mark_email_verified": true,
+					"v2/user/mfa": true,
+					"v2/user/mfa/confirm": true,
+					"v2/user/mfa/create": true,
+					"v2/user/mfa/find": true,
+					"v2/user/mfa/modify": true,
+					"v2/user/mfa/reset": true,
+					"v2/user/mfa/send_challenge": true,
+					"v2/user/mfa/send_default_challenge": true,
+					"v2/user/mfa/validate_cookie": true,
+					"v2/user/register": true,
+					"v2/user/request_sso_token": true,
+					"v2/user/send_confirmation": true,
+					"v2/withdrawal": true,
+					"v2/withdrawal/create": true,
+					"v2/withdrawal/find": true,
+					"v2/withdrawal/lookup_v3_id": true,
+					"v2/withdrawal/modify": true,
+					"v2/withdrawal/reconcile": true
+				},
+				"call_count_throttles": {
+					"v2/checkout/create": {
+						"endpoint_throttle": 30,
+						"account_throttle": 30
+					}
+				}
+			},
+			"v3": {
+				"emails_enabled": false,
+				"endpoints_enabled": {
+					"accounts": {
+						"post": true,
+						"get": true
+					},
+					"accounts/{id}": {
+						"post": true,
+						"get": true
+					},
+					"accounts/{id}/capabilities": {
+						"post": true,
+						"get": true
+					},
+					"legal_entities": {
+						"post": true,
+						"get": true
+					},
+					"legal_entities/{id}": {
+						"post": true,
+						"get": true
+					},
+					"legal_entities/{id}/set_controller_password": {
+						"post": false
+					},
+					"legal_entities/{id}/verifications": {
+						"post": true,
+						"get": true
+					},
+					"payouts": {
+						"get": true
+					},
+					"payouts/{id}": {
+						"post": true,
+						"get": true
+					},
+					"payout_methods": {
+						"post": true,
+						"get": true
+					},
+					"payout_methods/{id}": {
+						"post": true,
+						"get": true
+					},
+					"adjustments": {
+						"get": true
+					},
+					"adjustments/{id}": {
+						"post": true,
+						"get": true
+					},
+					"disputes": {
+						"get": true
+					},
+					"disputes/{id}": {
+						"post": true,
+						"get": true
+					},
+					"disputes/{id}/concede": {
+						"post": true
+					},
+					"recoveries": {
+						"post": true,
+						"get": true
+					},
+					"recoveries/{id}": {
+						"post": true,
+						"get": true
+					},
+					"transaction_records": {
+						"get": true
+					},
+					"transaction_records/{id}": {
+						"get": true
+					},
+					"billing_statements": {
+						"get": true
+					},
+					"billing_statements/{id}": {
+						"get": true
+					},
+					"billing_statements/{id}/fees_summary": {
+						"get": true
+					},
+					"billing_statements/{id}/transactions_summary": {
+						"get": true
+					},
+					"terminals": {
+						"post": true,
+						"get": true
+					},
+					"terminals/{id}": {
+						"post": true,
+						"get": true,
+						"delete": true
+					},
+					"terminals/{id}/activate": {
+						"post": true
+					},
+					"terminals/{id}/deactivate": {
+						"post": true
+					},
+					"tokens": {
+						"post": true
+					},
+					"items": {
+						"post": true,
+						"get": true
+					},
+					"items/{id}": {
+						"post": true,
+						"get": true,
+						"delete": true
+					},
+					"orders": {
+						"post": true,
+						"get": true
+					},
+					"orders/{id}": {
+						"post": true,
+						"get": true,
+						"delete": true
+					},
+					"rbits": {
+						"post": true,
+						"get": true
+					},
+					"rbits/{id}": {
+						"get": true,
+						"delete": true
+					},
+					"notifications": {
+						"get": true
+					},
+					"notifications/{id}": {
+						"get": true
+					},
+					"notification_preferences": {
+						"post": true,
+						"get": true
+					},
+					"notification_preferences/{id}": {
+						"post": true,
+						"get": true,
+						"delete": true
+					},
+					"payments": {
+						"post": true,
+						"get": true
+					},
+					"payments/{id}": {
+						"post": true,
+						"get": true
+					},
+					"payments/{id}/cancel": {
+						"post": true
+					},
+					"payments/{id}/capture": {
+						"post": true
+					},
+					"payment_methods": {
+						"post": true,
+						"get": true
+					},
+					"payment_methods/{id}": {
+						"post": true,
+						"get": true,
+						"delete": true
+					},
+					"payment_methods/{id}/verify_bank_deposits": {
+						"post": true
+					},
+					"refunds": {
+						"post": true,
+						"get": true
+					},
+					"refunds/{id}": {
+						"post": true,
+						"get": true
+					},
+					"session_tokens": {
+						"post": true
+					},
+					"sdk_authentications": {
+						"post": true
+					}
+				},
+				"legal_entities": {
+					"external_resources": {
+						"enterprise_customer_enabled": false
+					}
+				},
+				"payments": {
+					"inline_credit_card_enabled": false
+				},
+				"credit_cards": {
+					"auto_update_enabled": false,
+					"optional_cvv_enabled": false,
+					"virtual_terminal_mode_enabled": false
+				},
+				"pricing": {
+					"app_can_set_app_fee": true
+				},
+				"accounts": {
+					"beneficiary_transfer_enabled": false,
+					"accounts_per_owning_legal_entity_soft_limit": 5,
+					"reference_id_edit_enabled": true
+				},
+				"delegations_for_other_partners": {},
+				"product_selection": {
+					"current_product_selection": "clear"
+				},
+				"supported_api_versions": [
+					"3.0"
+				],
+				"call_count_throttles": {
+					"payments": {
+						"post": {
+							"endpoint_throttle": 30,
+							"account_throttle": 30
+						}
+					}
+				}
+			}
+		},
+		"risk": {
+			"restaurant_payments_review_enabled": true,
+			"merchant_tpv_threshold": {
+				"usd": null,
+				"cad": null,
+				"gbp": null
+			},
+			"are_docs_automatically_required_when_tpv_threshold_is_exceeded": false,
+			"are_docs_automatically_required_when_kyc_is_not_verified": false,
+			"jarvis_capabilities_config": {
+				"kyc_reset_enabled": true,
+				"kyc_retry_enabled": true,
+				"kyc_verify_enabled": true,
+				"cip_edit_enabled": true,
+				"request_doc_enabled": true
+			},
+			"vendor_checks": {
+				"lexis_nexis_enabled": true,
+				"evercompliant_enabled": true,
+				"telesign_enabled": true,
+				"emailage_enabled": true,
+				"visa_charity_enabled": true,
+				"mastercard_match_enabled": true,
+				"ofac_enabled": true,
+				"equifax_ca_enabled": true,
+				"equifax_uk_enabled": true
+			}
+		},
+		"third_party_arrangements": {
+			"chase_information_systems": {
+				"sub_product_code": "131"
+			}
+		}
+	}
+}

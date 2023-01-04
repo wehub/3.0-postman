@@ -1,0 +1,231 @@
+{
+    "post": {
+        "tags": [
+            "/terminals/*"
+        ],
+        "responses": {
+            "201": {
+                "description": "A successful terminals creation response.",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/terminals/post.resp.201.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/terminals/post.resp.201.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_terminals/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_terminals/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_terminals/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_terminals/description"
+        },
+        "operationId": "POST_terminals",
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_terminals/summary"
+        },
+        "requestBody": {
+            "content": {
+                "application/json": {
+                    "example": {
+                        "$ref": "file:./beaver/v3.0/terminals/post.req.example.1.json"
+                    },
+                    "schema": {
+                        "$ref": "file:./beaver/v3.0/terminals/post.req.schema.json"
+                    }
+                }
+            },
+            "required": true
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Content-Type"
+            }
+        ]
+    },
+    "get": {
+        "tags": [
+            "/terminals/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "A successful collection lookup response.",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/terminals/get.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/terminals/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_terminals/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_terminals/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_terminals/description"
+        },
+        "operationId": "GET_terminals",
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_terminals/summary"
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "name": "page",
+                "in": "query",
+                "description": "Return elements starting from this page. If specified, no other query parameters can be specified.",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "page_size",
+                "in": "query",
+                "description": "Maximum number of items per page of results.",
+                "schema": {
+                    "default": 10,
+                    "minimum": 1,
+                    "maximum": 50,
+                    "type": "integer"
+                }
+            },
+            {
+                "name": "create_time_start",
+                "in": "query",
+                "description": "The create time epoch timestamp (in seconds) for the start of the search window, inclusive.",
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "create_time_end",
+                "in": "query",
+                "description": "The create time epoch timestamp (in seconds) for the end of the search window, inclusive.",
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "account_id",
+                "in": "query",
+                "schema": {
+                    "$ref": "file:./shared/v3.0/id/shared.schema.json#/definitions/id"
+                }
+            },
+            {
+                "name": "reference_id",
+                "in": "query",
+                "description": "Filter search window by elements that match the reference ID.",
+                "schema": {
+                    "$ref": "file:./shared/v3.0/terminals/shared.schema.json#/definitions/reference_id"
+                }
+            },
+            {
+                "name": "model",
+                "in": "query",
+                "description": "Filter search window by elements that match the model.",
+                "schema": {
+                    "$ref": "file:./shared/v3.0/terminals/shared.schema.json#/definitions/model"
+                }
+            },
+            {
+                "name": "serial_number",
+                "in": "query",
+                "description": "Filter search window by elements that match the serial_number.",
+                "schema": {
+                    "$ref": "file:./shared/v3.0/terminals/shared.schema.json#/definitions/serial_number"
+                }
+            },
+            {
+                "name": "status",
+                "in": "query",
+                "description": "Filter search window by elements that match the status list.",
+                "schema": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "file:./shared/v3.0/terminals/shared.schema.json#/definitions/status"
+                    }
+                }
+            },
+            {
+                "name": "gateway_id",
+                "in": "query",
+                "description": "Filter search window by elements that match the gateway_id.",
+                "schema": {
+                    "$ref": "file:./shared/v3.0/terminals/shared.schema.json#/definitions/gateway_id"
+                }
+            }
+        ]
+    }
+}

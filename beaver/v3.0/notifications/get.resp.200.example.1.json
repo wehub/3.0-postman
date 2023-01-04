@@ -1,0 +1,85 @@
+{
+	"next" : "/notifications?page=0f3ef5b0-625d-4a80-9f5a-80bc0959fef7",
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"event_time" : 1511307578,
+			"id" : "aceecf2c-e432-4aac-90a3-8f3b7fbb6420",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/notifications/aceecf2c-e432-4aac-90a3-8f3b7fbb6420",
+			"payload" : {
+				"amount" : 4200,
+				"auto_capture" : true,
+				"create_time" : 1511307571,
+				"currency" : "",
+				"custom_data" : null,
+				"failure_reason" : null,
+				"fee_amount" : 0,
+				"id" : "00000000-0000-0000-0000-00000c42a66e",
+				"owner" : {
+					"id" : "40200612-e849-4172-8308-657cf3a0de27",
+					"path" : "/accounts/40200612-e849-4172-8308-657cf3a0de27",
+					"resource" : "accounts"
+				},
+				"path" : "/payments/00000000-0000-0000-0000-00000c42a66e",
+				"payment_method" : {
+					"id" : "00000000-6363-0000-0000-0000052023f3",
+					"path" : "/payment_methods/00000000-6363-0000-0000-0000052023f3",
+					"resource" : "payment_methods"
+				},
+				"pending_reasons" : null,
+				"resource" : "payments",
+				"status" : "completed",
+				"txnr_app_fee" : null,
+				"txnr_merchant" : null
+			},
+			"resource" : "notifications",
+			"topic" : "payments.completed",
+			"api_version": "3.0"
+		},
+		{
+			"event_time" : 1511307573,
+			"id" : "5fcfaa99-3193-482f-b3f4-4f0f4fe30d65",
+			"owner" : {
+				"id" : "171845",
+				"path" : null,
+				"resource" : "applications"
+			},
+			"path" : "/notifications/5fcfaa99-3193-482f-b3f4-4f0f4fe30d65",
+			"payload" : {
+				"amount" : 4200,
+				"auto_capture" : true,
+				"create_time" : 1511307571,
+				"currency" : "",
+				"custom_data" : null,
+				"failure_reason" : null,
+				"fee_amount" : 0,
+				"id" : "00000000-0000-0000-0000-00000c42a66e",
+				"owner" : {
+					"id" : "40200612-e849-4172-8308-657cf3a0de27",
+					"path" : "/accounts/40200612-e849-4172-8308-657cf3a0de27",
+					"resource" : "accounts"
+				},
+				"path" : "/payments/00000000-0000-0000-0000-00000c42a66e",
+				"payment_method" : {
+					"id" : "00000000-6363-0000-0000-0000052023f3",
+					"path" : "/payment_methods/00000000-6363-0000-0000-0000052023f3",
+					"resource" : "payment_methods"
+				},
+				"pending_reasons" : null,
+				"resource" : "payments",
+				"status" : "completed",
+				"txnr_app_fee" : null,
+				"txnr_merchant" : null
+			},
+			"resource" : "notifications",
+			"topic" : "payments.completed",
+			"api_version": "3.0"
+		}
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"next" : "/disputes?page=QVFQNUFBRVhFMHhnRnNMMEk3UXBjaHgxZ2J6NzdDSlJxL1pEdlVIK3grc1lxcUtBVWl5MjVkWElPT2s3bmJDRklHMFEwcFJ6VTBNWXpNdkdoTnBUYm1yUU9IRmNqQjlhdEJMZjV3UmJVTGU0ZUtsazNZY3NZbHNpdmpuSXdBTG9LTkwzQ3ROd1VsOFNqSCtYZXpkditKMHNIT3k5am1WNXdRM3ZLUnBrdmcwK2xqYlRhb2hrN3RETkJtaTR5Zz09",
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"amount" : 2200,
+			"create_time" : 1519348426,
+			"currency" : "USD",
+			"custom_data" : null,
+			"documentation" : {
+				"documents" : [],
+				"explanation" : ""
+			},
+			"fee" : 0,
+			"id" : "a80b51bc-c053-11e7-abc4-cec278b6b50a",
+			"owner" : {
+				"id" : "aeac0138-c053-11e7-abc4-cec278b6b50a",
+				"path" : "/accounts/aeac0138-c053-11e7-abc4-cec278b6b50a",
+				"resource" : "accounts"
+			},
+			"path" : "/disputes/a80b51bc-c053-11e7-abc4-cec278b6b50a",
+			"payment" : {
+				"id" : "b4d00fd2-c053-11e7-abc4-cec278b6b50a",
+				"path" : "/payments/b4d00fd2-c053-11e7-abc4-cec278b6b50a",
+				"resource" : "payments"
+			},
+			"card_brand": "visa",
+			"reason": {
+				"reason_code": "RECOGNITION",
+				"reason_message": "The payer did not recognize the transaction",
+				"details": [
+					{
+						"detail_code": "11.2",
+						"detail_message": "Declined Authorization"
+					}
+				]
+			},
+			"resolution" : null,
+			"resource" : "disputes",
+			"status" : "awaiting_merchant_response",
+			"txnr_chargeback_app_fees" : null,
+			"txnr_chargeback_merchant" : {
+				"id" : "bccc1e2e-c053-11e7-abc4-cec278b6b50a",
+				"path" : "/transaction_records/bccc1e2e-c053-11e7-abc4-cec278b6b50a",
+				"resource" : "transaction_records"
+			},
+			"txnr_chargeback_reversal_app_fee" : null,
+			"txnr_chargeback_reversal_merchant" : null,
+			"txnr_merchant_chargeback_fee" : {
+				"id" : "f2e5c7a7-c054-11e7-abc4-6b50acec278b",
+				"path" : "/transaction_records/f2e5c7a7-c054-11e7-abc4-6b50acec278b",
+				"resource" : "transaction_records"
+			},
+			"type" : "chargeback",
+			"api_version": "3.0"
+		}
+	]
+}

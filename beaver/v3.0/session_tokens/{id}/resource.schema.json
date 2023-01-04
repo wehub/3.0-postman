@@ -1,0 +1,169 @@
+{
+    "get": {
+        "tags": [
+            "/session_tokens/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/session_tokens/{id}/get.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/session_tokens/{id}/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_session_tokens-id/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_session_tokens-id/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_session_tokens-id/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_session_tokens-id/description"
+        },
+        "operationId": "GET_session_tokens-id",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_WePay-Risk-Token"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Client-IP"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_session_tokens-id/summary"
+        }
+    },
+    "delete": {
+        "tags": [
+            "/session_tokens/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/session_tokens/{id}/delete.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/session_tokens/{id}/delete.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/DELETE_session_tokens-id/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/DELETE_session_tokens-id/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/DELETE_session_tokens-id/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/DELETE_session_tokens-id/description"
+        },
+        "operationId": "DELETE_session_tokens-id",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_WePay-Risk-Token"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Client-IP"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/DELETE_session_tokens-id/summary"
+        }
+    },
+    "parameters": [
+        {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Resource-Id"
+            },
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/session_tokens_id_resource/id/description"
+            }
+        }
+    ]
+}

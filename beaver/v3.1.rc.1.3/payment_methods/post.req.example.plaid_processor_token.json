@@ -1,0 +1,19 @@
+{
+    "type": "plaid_processor_token",
+    "plaid_processor_token": {
+        "processor_token": "processor-sandbox-0asd1-a92nc",
+        "plaid_account_id": "vzeNDwK7KQIm4yEog683uElbp9GRLEFXGK98D",
+        "account_holder": {
+            "holder_name": "John Matthew Li",
+            "email": "ellard.li+test@wepay.com",
+            "phone": {
+                "country_code": "1",
+                "phone_number": "4159922353"
+            },
+            "address": {
+                "postal_code": "94122",
+                "country": "US"
+            }
+        }
+    }
+}

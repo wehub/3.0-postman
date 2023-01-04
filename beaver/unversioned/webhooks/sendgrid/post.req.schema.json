@@ -1,0 +1,48 @@
+{
+	"description": "The body of the request.",
+	"type" : "array",
+	"items": {
+		"type": "object",
+		"properties" : {
+			"email" : {
+				"$ref" : "file:./shared/v3.0/email/shared.schema.json#/definitions/email-nullable"
+			},
+			"event" : {
+				"type": "string",
+				"description": "the sendgrid event type"
+			},
+			"sg_event_id" : {
+				"type": "string",
+				"description": "a unique ID to this event that you can use for deduplication purposes"
+			},
+			"sg_message_id:" : {
+				"type": "string",
+				"description": "a unique, internal SendGrid ID for the message"
+			},
+			"smtp-id" : {
+				"type" : "string",
+				"description": "a unique ID attached to the message by the originating system."
+			},
+			"timestamp" : {
+				"type": "integer",
+				"description": "the UNIX timestamp of when the message was sent"
+			},
+			"email_id": {
+				"type": "string",
+				"description": "chameleon email model email_id"
+			},
+			"notification_id": {
+				"type": "string",
+				"description": "monolith email model notification_id",
+				"nullable": true
+			}
+		},
+		"required" : [
+			"email",
+			"event",
+			"sg_event_id",
+			"timestamp",
+			"email_id"
+		]
+	}
+}

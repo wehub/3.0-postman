@@ -1,0 +1,49 @@
+{
+  "next": "/pad_agreements?page=QVFQNUFBRVgzVDMrd3Rxd2RPYThkbFhtLzJUa08rMkU0djJnUHNpNk1HUlVhc2NoTWowUFFCaVNzajY5K1VLNFdSQ056Q1ZqL25qQXVZSDlLNVZXUnIvYVFOOTBCc2lSMWxOKzIrNzJxWXNWN1VhSHkvWllmcXF2NkNMZEphdXZYVlo3OHZtZkYzaVcwaEtpelRDbytUQjVDQ3lxUmxxSDVyaUJ4TUQwTGt1NTBwTW5qZlMvZmk1Q1paUDJJN1VPbDRpVjNxVWFDUTNZVi9aQTN3ZkJLYmtQOGpOMCtqeUJBOTNmQjcyKzczRHM1VkNHelJRMWRQLzNoNFJ0WWQxLw==",
+  "previous": null,
+  "api_version": "3.0",
+  "results": [
+    {
+      "payment_method_id": "00000000-0000-0000-0000-000000000111",
+      "account_id": "00000000-0000-0000-0000-000000000222",
+      "category": "personal",
+      "type": "sporadic",
+      "signature": {
+        "signatory_name": "abc",
+        "signature_time": 1657052022
+      },
+      "revoked": false,
+      "id": "00000000-0000-0000-0000-000000000333",
+      "resource": "pad_agreements",
+      "path": "/pad_agreements/00000000-0000-0000-0000-000000000333",
+      "create_time": 1657052022,
+      "owner": {
+        "id": "00000000-0000-0000-0000-000000000111",
+        "resource": "payment_methods",
+        "path": "/payment_methods/00000000-0000-0000-0000-000000000111"
+      },
+      "api_version":"3.0"
+    },
+    {
+      "payment_method_id": "00000000-0000-0000-0000-000000000111",
+      "account_id": "00000000-0000-0000-0000-000000000222",
+      "category": "personal",
+      "type": "sporadic",
+      "signature": {
+        "signatory_name": "abc",
+        "signature_time": 1657052022
+      },
+      "revoked": true,
+      "id": "00000000-0000-0000-0000-000000000444",
+      "resource": "pad_agreements",
+      "path": "/pad_agreements/00000000-0000-0000-0000-000000000444",
+      "create_time": 1657052022,
+      "owner": {
+        "id": "00000000-0000-0000-0000-000000000111",
+        "resource": "payment_methods",
+        "path": "/payment_methods/00000000-0000-0000-0000-000000000111"
+      },
+      "api_version":"3.0"
+    }
+  ]
+}

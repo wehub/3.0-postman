@@ -1,0 +1,40 @@
+{
+	"id" : null,
+	"owner" : {
+		"id" : "9647b114-55ca-4c58-8072-d424d879ac06",
+		"path" : "/accounts/9647b114-55ca-4c58-8072-d424d879ac06",
+		"resource" : "accounts"
+	},
+	"path" : "/accounts/9647b114-55ca-4c58-8072-d424d879ac06/capabilities",
+	"payments" : {
+		"current_issues" : [],
+		"enabled" : true,
+		"upcoming_issues" : {}
+	},
+	"payouts" : {
+		"current_issues" : [],
+		"enabled" : true,
+		"upcoming_issues" : {}
+	},
+	"terminals" : {
+		"current_issues" : [
+			{
+				"errant_fields": {
+					"country": [
+						"is_unsupported_value"
+					]
+				},
+				"issue_type": "errant_fields",
+				"target": {
+					"resource": "legal_entities",
+					"id": "672b72f5-5136-4304-b553-ec7c8544b51e",
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e"
+				}
+			}
+		],
+		"enabled" : false,
+		"upcoming_issues" : {}
+	},
+	"resource" : "capabilities",
+	"api_version": "3.1"
+}

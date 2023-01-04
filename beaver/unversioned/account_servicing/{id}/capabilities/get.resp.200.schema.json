@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "payments": {
+      "$ref": "file:./shared/unversioned/account_servicing/capabilities.schema.json#/definitions/capabilities"
+    },
+    "payouts": {
+      "$ref": "file:./shared/unversioned/account_servicing/capabilities.schema.json#/definitions/capabilities"
+    },
+    "terminals": {
+      "$ref": "file:./shared/unversioned/account_servicing/capabilities.schema.json#/definitions/capabilities"
+    }
+  },
+  "additionalProperties": false
+}

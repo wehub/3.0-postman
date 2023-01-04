@@ -1,0 +1,42 @@
+{
+	"additionalProperties" : false,
+	"properties" : {
+		"payload" : {
+			"type": "string"
+		},
+		"protected" : {
+			"type": "string",
+			"nullable": true
+		},
+		"header" : {
+			"type": "string",
+			"nullable": true
+		},
+		"signature" : {
+			"type": "string",
+			"nullable": true
+		},
+		"signatures" : {
+			"items" : {
+				"type": "object",
+				"properties": {
+					"protected" : {
+						"type": "string"
+					},
+					"header" : {
+						"type": "string"
+					},
+					"signature" : {
+						"type": "string"
+					}
+				}
+			},
+			"type" : "array",
+			"nullable": true
+		}
+	},
+	"required" : [
+		"payload"
+	],
+	"type" : "object"
+}

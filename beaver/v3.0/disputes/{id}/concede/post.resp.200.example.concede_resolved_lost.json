@@ -1,0 +1,59 @@
+{
+	"amount" : 2200,
+	"create_time" : 1519348426,
+	"currency" : "USD",
+	"custom_data" : null,
+	"documentation" : {
+		"documents" : [
+			"docu-abc123",
+			"docu-efg456",
+			"docu-hij789"
+		],
+		"explanation" : "lorem ipsum dolores umbridge"
+	},
+	"fee" : 0,
+	"id" : "2fe5f054-c056-11e7-abc4-cec278b6b50a",
+	"owner" : {
+		"id" : "35674a3c-c056-11e7-abc4-cec278b6b50a",
+		"path" : "/accounts/35674a3c-c056-11e7-abc4-cec278b6b50a",
+		"resource" : "accounts"
+	},
+	"path" : "/disputes/2fe5f054-c056-11e7-abc4-cec278b6b50a",
+	"payment" : {
+		"id" : "3a30889e-c056-11e7-abc4-cec278b6b50a",
+		"path" : "/payments/3a30889e-c056-11e7-abc4-cec278b6b50a",
+		"resource" : "payments"
+	},
+	"card_brand": "visa",
+	"reason": {
+		"reason_code": "RECOGNITION",
+		"reason_message": "The payer did not recognize the transaction",
+		"details": [
+			{
+				"detail_code": "11.2",
+				"detail_message": "Declined Authorization"
+			}
+		]
+	},
+	"resolution" : {
+		"resolution_time" : 123283237765,
+		"type" : "lost"
+	},
+	"resource" : "disputes",
+	"status" : "resolved",
+	"txnr_chargeback_app_fees" : null,
+	"txnr_chargeback_merchant" : {
+		"id" : "421ac402-c056-11e7-abc4-cec278b6b50a",
+		"path" : "/transaction_records/421ac402-c056-11e7-abc4-cec278b6b50a",
+		"resource" : "transaction_records"
+	},
+	"txnr_chargeback_reversal_app_fee" : null,
+	"txnr_chargeback_reversal_merchant" : null,
+	"txnr_merchant_chargeback_fee" : {
+		"id" : "f2e5c7a7-c054-11e7-abc4-6b50acec278b",
+		"path" : "/transaction_records/f2e5c7a7-c054-11e7-abc4-6b50acec278b",
+		"resource" : "transaction_records"
+	},
+	"type" : "chargeback",
+	"api_version": "3.0"
+}

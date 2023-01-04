@@ -1,0 +1,38 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "next": {
+            "type": "string",
+            "nullable": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/transaction_records_get/next/description"
+            }
+        },
+        "previous": {
+            "type": "string",
+            "nullable": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/transaction_records_get/previous/description"
+            }
+        },
+        "results": {
+            "items": {
+                "$ref": "file:./shared/v3.0/transactions/transaction_record.schema.json"
+            },
+            "type": "array",
+            "uniqueItems": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/transaction_records_get/results/description"
+            }
+        },
+        "api_version": {
+            "$ref": "file:./shared/v3.0/version/shared.schema.json#/definitions/api_version"
+        }
+    },
+    "required": [
+        "results",
+        "next",
+        "previous"
+    ],
+    "type": "object"
+}

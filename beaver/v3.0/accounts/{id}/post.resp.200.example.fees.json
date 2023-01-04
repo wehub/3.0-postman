@@ -1,0 +1,95 @@
+{
+	"balances" : {
+		"currencies" : {
+			"USD" : {
+				"balance" : 100000,
+				"incoming_pending" : 5000,
+				"outgoing_pending" : 21200,
+				"reserve" : 10000
+			}
+		}
+	},
+	"create_time" : 1480700534,
+	"api_version": "3.0",
+	"beneficiary" : {
+		"id": "295f2816-07b9-4d9e-a035-4f0884ef228b",
+		"resource": "legal_entities",
+		"path": "/legal_entities/295f2816-07b9-4d9e-a035-4f0884ef228b"
+	},
+	"custom_data" : null,
+	"description" : "Foo Bar Shop on 5th ave.",
+	"documents" : [],
+	"enhanced_review" : "not_requested",
+	"id" : "d3f61e56-5d99-4895-af2d-a07ab48476e9",
+	"incoming_payments" : {
+		"accepted_methods" : [
+			"payment_bank",
+			"mastercard",
+			"visa",
+			"amex"
+		]
+	},
+	"industry" : {
+		"category_detail" : "Website design",
+		"merchant_category_code" : "7333"
+	},
+	"name" : "Foo Bar Shop",
+	"owner" : {
+		"id" : "3cd20b3c-4008-400b-b708-2b844ce7be84",
+		"path" : "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+		"resource" : "legal_entities"
+	},
+	"path" : "/accounts/d3f61e56-5d99-4895-af2d-a07ab48476e9",
+	"payout" : {
+		"currencies" : {
+			"USD" : {
+				"next_payout_time" : 14987382982,
+				"payout_method_id" : "0102b1c6-2bc7-448a-aa1d-076b1637547c",
+				"period" : "daily"
+			}
+		},
+		"default_currency" : "USD"
+	},
+	"pricing" : {
+		"currencies" : {
+			"USD" : {
+				"credit_card" : {
+					"type" : "interchange_plus",
+					"interchange_plus" : {
+						"transaction" : {
+							"fixed_fee_markup_amount" : 30,
+							"variable_fee_markup_bps" : 50
+						},
+						"auth" : {
+							"fixed_fee_markup_amount" : 20
+						},
+						"refund_fee_for_transaction_markup": true,
+						"chargeback_amount" : 1500
+					}
+				},
+				"payment_bank" : {
+					"type" : "standard",
+					"standard" : {
+						"fixed_fee_amount" : 25,
+						"variable_fee_bps" : 100,
+						"min_fee_amount" : 100,
+						"max_fee_amount" : 5000,
+						"refund_fee_for_standard": false
+					}
+				},
+				"recurring_fee" : {
+					"period" : "monthly",
+					"amount" : 10000
+				},
+				"other_fees" : {
+					"debit_failure_fee" : 1000
+				}
+			}
+		}
+	},
+	"reference_id" : null,
+	"resource" : "accounts",
+	"statement_description" : "Purchase from Foo Bar Shop",
+	"platform_onboarding_time": null,
+	"projected_monthly_transaction_volume": 500
+}

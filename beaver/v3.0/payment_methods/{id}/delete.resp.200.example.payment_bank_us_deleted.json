@@ -1,0 +1,36 @@
+{
+	"create_time" : 1512429148,
+	"custom_data" : null,
+	"id" : "00000000-6261-5553-0000-000000000dd9",
+	"owner" : {
+		"id" : "137137",
+		"path" : null,
+		"resource" : "applications"
+	},
+	"path" : "/payment_methods/00000000-6261-5553-0000-000000000dd9",
+	"payment_bank_us" : {
+		"account_holder" : {
+			"address" : {
+				"city" : "",
+				"country" : "US",
+				"line1" : "",
+				"line2" : "",
+				"postal_code" : "94025",
+				"region" : ""
+			},
+			"email" : "example@wepay.com",
+			"holder_name" : "John Snow",
+			"phone" : {
+				"country_code" : null,
+				"phone_number" : null,
+				"type": null
+			}
+		},
+		"account_type" : "checking",
+		"last_four" : "6789"
+	},
+	"resource" : "payment_methods",
+	"status" : "deleted",
+	"type" : "payment_bank_us",
+	"api_version": "3.0"
+}

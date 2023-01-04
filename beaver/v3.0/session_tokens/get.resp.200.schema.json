@@ -1,0 +1,38 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "next": {
+            "type": "string",
+            "nullable": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/session_tokens_get/next/description"
+            }
+        },
+        "previous": {
+            "type": "string",
+            "nullable": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/session_tokens_get/previous/description"
+            }
+        },
+        "results": {
+            "items": {
+                "$ref": "file:./shared/v3.0/session_tokens/shared.schema.json#/definitions/session_tokens-resp"
+            },
+            "type": "array",
+            "uniqueItems": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/session_tokens_get/results/description"
+            }
+        },
+        "api_version": {
+            "$ref": "file:./shared/v3.0/version/shared.schema.json#/definitions/api_version"
+        }
+    },
+    "required": [
+        "results",
+        "next",
+        "previous"
+    ],
+    "type": "object"
+}

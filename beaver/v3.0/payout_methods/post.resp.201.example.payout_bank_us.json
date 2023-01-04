@@ -1,0 +1,19 @@
+{
+	"create_time" : 1480700534,
+	"custom_data" : null,
+	"id" : "0102b1c6-2bc7-448a-aa1d-076b1637547c",
+	"nickname" : "Foo Bar Bank",
+	"owner" : {
+		"id" : "3cd20b3c-4008-400b-b708-2b844ce7be84",
+		"path" : "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+		"resource" : "legal_entities"
+	},
+	"path" : "/payout_methods/0102b1c6-2bc7-448a-aa1d-076b1637547c",
+	"payout_bank_us" : {
+		"account_type" : "checking",
+		"last_four" : "4739"
+	},
+	"resource" : "payout_methods",
+	"type" : "payout_bank_us",
+	"api_version": "3.0"
+}

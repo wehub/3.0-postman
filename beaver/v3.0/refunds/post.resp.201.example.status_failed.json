@@ -1,0 +1,44 @@
+{
+	"amounts" : {
+		"total_amount" : 100,
+		"currency" : "USD",
+		"fee_refund_amount" : 0
+	},
+	"create_time" : 1509140695,
+	"custom_data" : null,
+	"failure_reason" : {
+		"details" : [],
+		"reason_code" : "UNKNOWN",
+		"reason_message" : "Failed to refund the payment due to unknown reasons."
+	},
+	"id" : "232469fa-eda3-41de-ad56-f887a20a47b3",
+	"order" : null,
+	"owner" : {
+		"id" : "40200612-e849-4172-8308-657cf3a0de27",
+		"path" : "/accounts/40200612-e849-4172-8308-657cf3a0de27",
+		"resource" : "accounts"
+	},
+	"path" : "/refunds/232469fa-eda3-41de-ad56-f887a20a47b3",
+	"payment" : {
+		"id" : "f19c22c7-8075-49dd-a0ae-5a0f394be1de",
+		"path" : "/payments/f19c22c7-8075-49dd-a0ae-5a0f394be1de",
+		"resource" : "payments"
+	},
+	"payment_method" : {
+		"id" : "00000000-6363-0000-0000-0000c27db2f3",
+		"path" : "/payment_methods/00000000-6363-0000-0000-0000c27db2f3",
+		"resource" : "payment_methods"
+	},
+	"pending_reasons" : null,
+	"refund_reason" : "example refund reason",
+	"resource" : "refunds",
+	"status" : "failed",
+	"txnr_app_fee_refund" : null,
+	"txnr_merchant_refund" : {
+		"id" : "dc903f20-e08e-4ee1-9a74-4447c9c1b2e1",
+		"path" : "/transaction_records/dc903f20-e08e-4ee1-9a74-4447c9c1b2e1",
+		"resource" : "transaction_records"
+	},
+	"api_version": "3.0",
+	"reference_id": "reference_id_0"
+}

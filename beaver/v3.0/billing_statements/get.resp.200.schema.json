@@ -1,0 +1,30 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "api_version": {
+            "$ref": "file:./shared/v3.0/version/shared.schema.json#/definitions/api_version"
+        },
+        "next": {
+            "type": "string",
+            "nullable": true
+        },
+        "previous": {
+            "type": "string",
+            "nullable": true
+        },
+        "results": {
+            "items": {
+                "$ref": "file:./shared/v3.0/billing_statements/billing_statement.schema.json"
+            },
+            "type": "array",
+            "uniqueItems": true
+        }
+    },
+    "required": [
+        "next",
+        "previous",
+        "results",
+        "api_version"
+    ],
+    "type": "object"
+}

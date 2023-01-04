@@ -1,0 +1,88 @@
+{
+	"next" : "/accounts?page=AQQHAAEX8yf1HDkrXqO7R-wy2joNU6ooRNCyDb-sSbbvR-8J6jKeFgpqprcIsuEnBh4fqImpR2eYjKIgSCirw2mhEFR7m5AsSj1OkG9emNFWhXQvreOczuQU7UzZ",
+	"previous" : null,
+	"api_version": "3.1",
+	"results" : [
+		{
+			"balances" : {
+				"currencies" : {
+					"USD" : {
+						"balance" : 100000,
+						"incoming_pending" : 5000,
+						"outgoing_pending" : 21200,
+						"reserve" : 10000
+					}
+				}
+			},
+			"beneficiary": {
+				"id" : "3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"path" : "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"resource" : "legal_entities"
+			},
+			"create_time" : 1480700534,
+			"api_version": "3.1",
+			"custom_data": null,
+			"description" : "Foo Bar Shop on 5th ave.",
+			"enhanced_review" : "not_requested",
+			"id" : "d3f61e56-5d99-4895-af2d-a07ab48476e9",
+			"incoming_payments" : {
+				"accepted_methods" : [
+					"payment_bank",
+					"mastercard",
+					"visa",
+					"amex"
+				]
+			},
+			"industry" : {
+				"category_detail" : "Website design",
+				"merchant_category_code" : "7333"
+			},
+			"name" : "Foo Bar Shop",
+			"owner" : {
+				"id" : "3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"path" : "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"resource" : "legal_entities"
+			},
+			"path" : "/accounts/d3f61e56-5d99-4895-af2d-a07ab48476e9",
+			"payout" : {
+				"currencies" : {
+					"USD" : {
+						"next_payout_time" : 14987382982,
+						"payout_method_id" : "0102b1c6-2bc7-448a-aa1d-076b1637547c",
+						"period" : "daily"
+					}
+				},
+				"default_currency" : "USD"
+			},
+			"pricing" : {
+				"currencies" : {
+					"USD" : {
+						"credit_card" : null,
+						"payment_bank" : null
+					}
+				}
+			},
+			"reference_id" : null,
+			"resource" : "accounts",
+			"statement_description" : "Purchase from Foo Bar Shop",
+			"platform_onboarding_time" : null,
+			"projected_monthly_transaction_volume": 500,
+			"documents": [
+				{
+					"id": "163ae7cc-8d8c-482c-9363-563ce98fc8cd",
+					"type": "fee_disclosure",
+					"create_time": 1582224007,
+					"resource": "documents",
+					"owner": {
+						"id": "d3f61e56-5d99-4895-af2d-a07ab48476e9",
+						"resource": "accounts",
+						"path": "/accounts/d3f61e56-5d99-4895-af2d-a07ab48476e9"
+					},
+					"path": null,
+					"reject_reason": null,
+					"status": null
+				}
+			]
+		}
+	]
+}

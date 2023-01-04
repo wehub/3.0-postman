@@ -1,0 +1,15 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "type": {
+            "$ref": "file:./shared/v3.0/session_tokens/shared.schema.json#/definitions/type"
+        },
+        "mobile_session": {
+            "$ref": "file:./shared/v3.0/session_tokens/shared.schema.json#/definitions/mobile_session-req"
+        }
+    },
+    "required": [
+        "type"
+    ],
+    "type": "object"
+}

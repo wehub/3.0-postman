@@ -1,0 +1,18 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "cancel_reason": {
+            "type": "string",
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/payments_id_cancel_post/cancel_reason/description"
+            }
+        },
+        "rbits": {
+            "$ref": "file:./shared/v3.0/rbits/embedded_rbits.schema.json"
+        }
+    },
+    "required": [
+        "cancel_reason"
+    ],
+    "type": "object"
+}

@@ -1,0 +1,42 @@
+{
+  "outreaches":[
+    {
+      "type":"RISK_OUTREACH",
+      "status":"PENDING_REVIEW",
+      "creator_user_id":"12345678",
+      "creator_user_name":"test name",
+      "reviewer_user_id":"8000123",
+      "reviewer_user_name":"reviewer name",
+      "create_time":1490656130,
+      "respond_time":1490696130,
+      "resolve_time":1490696130,
+      "cancel_time":1490696130,
+      "risk_outreach_reasons": [
+        "RISK_OUTREACH"
+      ],
+      "risk_outreach_questions": [
+        {
+          "question": "test",
+          "response": "answer"
+        }
+      ],
+      "outreach_entity_records":[
+        {
+          "entity_title":"CONTROLLER",
+          "message":"test",
+          "requested_document_types_by_wepay":[
+            "permanent_resident_card",
+            "credit_or_debit_card"
+          ],
+          "uploaded_documents":[
+            {
+              "file_type":"permResident",
+              "source":"DOC_SOURCE_EXTERNAL",
+              "file_name":"Screen Shot 2021-01-19 at 2.38.03 PM.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

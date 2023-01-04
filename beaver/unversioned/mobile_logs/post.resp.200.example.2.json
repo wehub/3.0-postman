@@ -1,0 +1,42 @@
+{
+  "received_log_count": 3,
+  "accepted_log_count": 1,
+  "accepted_details": [
+    {
+      "id": "682dc708-d2cf-433c-94b6-50cb921a3579"
+    }
+  ],
+  "unretryable_failed_log_count": 1,
+  "unretryable_failed_details": [
+    {
+      "index": 2,
+      "issue": {
+        "error_code": "INVALID_PARAMS",
+        "error_message": "Invalid parameter(s).",
+        "details": [
+          {
+            "target": [
+              "id"
+            ],
+            "target_type": "HTTP_REQUEST_BODY",
+            "reason_code": "PARAM_IS_MISSING",
+            "message": "A required parameter is missing."
+          }
+        ]
+      }
+    }
+  ],
+  "retryable_failed_log_count": 1,
+  "retryable_failed_details": [
+    {
+      "index": 1,
+      "id": "a3c7d2c0-1733-4920-a780-a5794ed18f2d",
+      "issue": {
+        "error_code": "UNEXPECTED_ERROR",
+        "error_message": "There was an unknown error.",
+        "details": null
+      }
+    }
+  ]
+}
+

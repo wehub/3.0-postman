@@ -1,0 +1,14 @@
+{
+	"error_code": "INVALID_PARAMS",
+	"error_message": "Invalid parameter(s).",
+	"details": [
+		{
+			"target": [
+				"capture_at"
+			],
+			"target_type": "HTTP_REQUEST_BODY",
+			"reason_code": "INVALID_CAPTURE_AT_TIME",
+			"message": "capture_at time 1546359558 cannot be in the past or beyond 7 days from now."
+		}
+	]
+}

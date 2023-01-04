@@ -1,0 +1,99 @@
+{
+	"next" : null,
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"create_time" : 1510080181,
+			"currency" : "USD",
+			"fee_amount" : 59,
+			"gross_amount" : 2000,
+			"id" : "00000000-0000-0000-0000-000000013003",
+			"net_amount" : 1941,
+			"owner" : {
+				"id" : "00000000-0000-0000-0000-0000767bf5cd",
+				"path" : "/payments/00000000-0000-0000-0000-0000767bf5cd",
+				"resource" : "payments",
+				"custom_data": null
+			},
+			"path" : "/transaction_records/00000000-0000-0000-0000-000000013003",
+			"resource" : "transaction_records",
+			"type" : "merchant_payment",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1510170113,
+			"currency" : "USD",
+			"fee_amount" : 40,
+			"gross_amount" : 1000,
+			"id" : "00000000-0000-0000-0000-0000000134cb",
+			"net_amount" : 960,
+			"owner" : {
+				"id" : "00000000-0000-0000-0000-000042702825",
+				"path" : "/payments/00000000-0000-0000-0000-000042702825",
+				"resource" : "payments",
+				"custom_data": {
+					"a": 1
+				}
+			},
+			"path" : "/transaction_records/00000000-0000-0000-0000-0000000134cb",
+			"resource" : "transaction_records",
+			"type" : "merchant_payment",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1510171435,
+			"currency" : "USD",
+			"fee_amount" : 32,
+			"gross_amount" : 800,
+			"id" : "00000000-0000-0000-0000-0000000134d4",
+			"net_amount" : 768,
+			"owner" : {
+				"id" : "00000000-0000-0000-0000-000054714d76",
+				"path" : "/payments/00000000-0000-0000-0000-000054714d76",
+				"resource" : "payments",
+				"custom_data": null
+			},
+			"path" : "/transaction_records/00000000-0000-0000-0000-0000000134d4",
+			"resource" : "transaction_records",
+			"type" : "merchant_payment",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1510172479,
+			"currency" : "USD",
+			"fee_amount" : 20,
+			"gross_amount" : 500,
+			"id" : "00000000-0000-0000-0000-0000000134d7",
+			"net_amount" : 480,
+			"owner" : {
+				"id" : "00000000-0000-0000-0000-00005e1c8d72",
+				"path" : "/payments/00000000-0000-0000-0000-00005e1c8d72",
+				"resource" : "payments",
+				"custom_data": null
+			},
+			"path" : "/transaction_records/00000000-0000-0000-0000-0000000134d7",
+			"resource" : "transaction_records",
+			"type" : "merchant_payment",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1510182803,
+			"currency" : "USD",
+			"fee_amount" : 25,
+			"gross_amount" : 750,
+			"id" : "00000000-0000-0000-0000-0000000134e9",
+			"net_amount" : 725,
+			"owner" : {
+				"id" : "00000000-0000-0000-0000-00005c72c565",
+				"path" : "/payments/00000000-0000-0000-0000-00005c72c565",
+				"resource" : "payments",
+				"custom_data": null
+			},
+			"path" : "/transaction_records/00000000-0000-0000-0000-0000000134e9",
+			"resource" : "transaction_records",
+			"type" : "merchant_payment",
+			"api_version": "3.0"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"options": {
+		"description": "Pre-Flight Request for /tokens API. Needs to be unversioned because CORS will not provide an API version. Only OPTIONS supported because all other methods require a version.",
+		"security": [],
+		"responses": {
+			"200": {
+				"description": ""
+			}
+		}
+	}
+}

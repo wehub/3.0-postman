@@ -1,0 +1,45 @@
+{
+	"next" : "/payout_methods?page=QVFQNUFBRVgzVDMrd3Rxd2RPYThkbFhtLzJUa08rMkU0djJnUHNpNk1HUlVhc2NoTWowUFFCaVNzajY5K1VLNFdSQ056Q1ZqL25qQXVZSDlLNVZXUnIvYVFOOTBCc2lSMWxOKzIrNzJxWXNWN1VhSHkvWllmcXF2NkNMZEphdXZYVlo3OHZtZkYzaVcwaEtpelRDbytUQjVDQ3lxUmxxSDVyaUJ4TUQwTGt1NTBwTW5qZlMvZmk1Q1paUDJJN1VPbDRpVjNxVWFDUTNZVi9aQTN3ZkJLYmtQOGpOMCtqeUJBOTNmQjcyKzczRHM1VkNHelJRMWRQLzNoNFJ0WWQxLw==",
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"create_time" : 1480700534,
+			"custom_data" : null,
+			"id" : "0102b1c6-2bc7-448a-aa1d-076b1637547c",
+			"nickname" : "Foo Bar Bank",
+			"owner" : {
+				"id" : "3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"path" : "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"resource" : "legal_entities"
+			},
+			"path" : "/payout_methods/0102b1c6-2bc7-448a-aa1d-076b1637547c",
+			"payout_bank_us" : {
+				"account_type" : "checking",
+				"last_four" : "6979"
+			},
+			"resource" : "payout_methods",
+			"type" : "payout_bank_us",
+			"api_version": "3.0"
+		},
+		{
+			"create_time" : 1480700534,
+			"custom_data" : null,
+			"id" : "3e32b1c6-2bc7-448a-aa1d-076b1637547c",
+			"nickname" : "Foo Bar Bank",
+			"owner" : {
+				"id" : "3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"path" : "/legal_entities/3cd20b3c-4008-400b-b708-2b844ce7be84",
+				"resource" : "legal_entities"
+			},
+			"path" : "/payout_methods/0102b1c6-2bc7-448a-aa1d-076b1637547c",
+			"payout_bank_us" : {
+				"account_type" : "checking",
+				"last_four" : "6889"
+			},
+			"resource" : "payout_methods",
+			"type" : "payout_bank_us",
+			"api_version": "3.0"
+		}
+	]
+}

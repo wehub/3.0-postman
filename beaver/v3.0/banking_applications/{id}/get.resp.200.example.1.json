@@ -1,0 +1,15 @@
+{
+  "create_time": 1648144065,
+  "reference_id": "666666abc",
+  "dba_name": "Top Cookie SF",
+  "description": "null",
+  "id": "e8174236-a298-4ec5-a83a-01f69745e711",
+  "resource": "banking_applications",
+  "path": "/banking_applications/e8174236-a298-4ec5-a83a-01f69745e711",
+  "owner": {
+    "id": "688a0a74-6dad-43a5-bad0-a1064971510a",
+    "resource": "legal_entities",
+    "path": "/legal_entities/688a0a74-6dad-43a5-bad0-a1064971510a"
+  },
+  "api_version": "3.0"
+}

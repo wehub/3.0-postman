@@ -1,0 +1,163 @@
+{
+	"results": [
+		{
+			"id": "00000000-0000-0000-0000-000000000001",
+			"resource": "hardware_reports",
+			"path": "/hardware_reports/00000000-0000-0000-0000-000000000001",
+			"owner":{
+				"id": "00000000-0000-0000-0000-000000013003",
+				"resource": "accounts",
+				"path": "/accounts/00000000-0000-0000-0000-000000013003"
+			},
+			"create_time": 1615331510,
+			"account_id": "00000000-0000-0000-0000-000000013003",
+			"serial_number": "1234-ABCD",
+			"model": "verifone_p400",
+			"status": "active",
+			"terminal_configuration": {
+				"name": "Terminal Name 1",
+				"maintenance_window": {
+					"start": 0,
+					"duration": 1
+				},
+				"manual_entry_configuration": {
+					"avs_prompt_enabled": true,
+					"cvd_prompt_enabled": false
+				},
+				"address": {
+					"line1": "123 Fake Street",
+					"line2": "Apt 456",
+					"city": "Houston",
+					"region": "TX",
+					"country": "US",
+					"postal_code": "77077"
+				},
+				"receipt_header_merchant_name": null,
+				"currency": "USD",
+				"supported_card_brands": [
+					"american_express",
+					"visa",
+					"mastercard"
+				],
+				"credit_debit_preference": "credit",
+				"sim_card_id": "5aad45c2-d128-466a-aae3-d42fef57e2f7",
+				"timezone": "America/Chicago",
+				"tip":{
+					"mode": "disabled",
+					"terminal_display":{
+						"amount_guide_type": "percentage_guide",
+						"percentage_guide":{
+							"show_amount": false,
+							"percentage_low": 10,
+							"percentage_medium": 15,
+							"percentage_high": 17
+						}
+					}
+				},
+				"signature_required": true,
+				"contactless_payments":{
+					"enabled": true,
+					"credit_debit_preference": "credit"
+				},
+				"quick_chip":{
+					"enabled": true
+				},
+				"deferred_authorization":{
+					"enabled": true,
+					"international_enabled": true,
+					"max_transaction_count": 10,
+					"max_total_amount": 1000,
+					"max_transaction_amount": 10,
+					"supported_card_entry_modes":[
+						"chip"
+					]
+				}
+			},
+			"count_auths_pending": 10,
+			"count_auths_declined": 5,
+			"count_auths_captured": 50,
+			"api_version": "3.0"
+		},
+		{
+			"id": "00000000-0000-0000-0000-000000000002",
+			"resource": "hardware_reports",
+			"path": "/hardware_reports/00000000-0000-0000-0000-000000000002",
+			"owner":{
+				"id": "00000000-0000-0000-0000-000000013003",
+				"resource": "accounts",
+				"path": "/accounts/00000000-0000-0000-0000-000000013003"
+			},
+			"create_time": 1615331910,
+			"account_id": "00000000-0000-0000-0000-000000013003",
+			"serial_number": "5678-EFGH",
+			"model": "verifone_v400m",
+			"status": "active",
+			"terminal_configuration": {
+				"name": "Terminal Name 2",
+				"maintenance_window": {
+					"start": 0,
+					"duration": 1
+				},
+				"manual_entry_configuration": {
+					"avs_prompt_enabled": true,
+					"cvd_prompt_enabled": false
+				},
+				"address": {
+					"line1": "123 Fake Street",
+					"line2": "Apt 456",
+					"city": "Houston",
+					"region": "TX",
+					"country": "US",
+					"postal_code": "77077"
+				},
+				"receipt_header_merchant_name": null,
+				"currency": "USD",
+				"supported_card_brands": [
+					"american_express",
+					"visa",
+					"mastercard"
+				],
+				"credit_debit_preference": "credit",
+				"sim_card_id": "5aad45c2-d128-466a-aae3-d42fef57e2f7",
+				"timezone": "America/Chicago",
+				"tip":{
+					"mode": "disabled",
+					"terminal_display":{
+						"amount_guide_type": "flat_guide",
+						"flat_guide":{
+							"amount_low": 10,
+							"amount_medium": 20,
+							"amount_high": 50
+						}
+					}
+				},
+				"signature_required": true,
+				"contactless_payments":{
+					"enabled": true,
+					"credit_debit_preference": "credit"
+				},
+				"quick_chip":{
+					"enabled": true
+				},
+				"deferred_authorization":{
+					"enabled": true,
+					"international_enabled": true,
+					"max_transaction_count": 10,
+					"max_total_amount": 1000,
+					"max_transaction_amount": 10,
+					"supported_card_entry_modes":[
+						"chip"
+					]
+				}
+			},
+			"count_auths_pending": 10,
+			"count_auths_declined": 5,
+			"count_auths_captured": 50,
+			"api_version": "3.0"
+		}
+	],
+	"previous": null,
+	"next": null,
+	"api_version": "3.0",
+	"result_count": 2
+}

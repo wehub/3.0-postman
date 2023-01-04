@@ -1,0 +1,301 @@
+{
+    "post": {
+        "tags": [
+            "/payments/*"
+        ],
+        "responses": {
+            "201": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/payments/post.resp.201.example.credit_card_manual.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/payments/post.resp.201.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_payments/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_payments/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_payments/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_payments/description"
+        },
+        "operationId": "POST_payments",
+        "requestBody": {
+            "content": {
+                "application/json": {
+                    "example": {
+                        "$ref": "file:./beaver/v3.0/payments/post.req.example.1.json"
+                    },
+                    "schema": {
+                        "$ref": "file:./beaver/v3.0.rc.2.2/payments/post.req.schema.json"
+                    }
+                }
+            },
+            "required": true
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Content-Type"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Required_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_WePay-Risk-Token"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Client-IP"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_payments/summary"
+        }
+    },
+    "get": {
+        "tags": [
+            "/payments/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/payments/get.resp.200.example.general.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/payments/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_payments/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_payments/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_payments/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_payments/description"
+        },
+        "operationId": "GET_payments",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "name": "page",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/page/description"
+                },
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "page_size",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/page_size/description"
+                },
+                "schema": {
+                    "default": 10,
+                    "minimum": 1,
+                    "maximum": 50,
+                    "type": "integer"
+                }
+            },
+            {
+                "name": "create_time_start",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/create_time_start/description"
+                },
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "create_time_end",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/create_time_end/description"
+                },
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "minimum_amount",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/minimum_amount/description"
+                },
+                "schema": {
+                    "type": "integer"
+                }
+            },
+            {
+                "name": "maximum_amount",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/maximum_amount/description"
+                },
+                "schema": {
+                    "type": "integer"
+                }
+            },
+            {
+                "name": "owner_id",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                },
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/owner_id/description"
+                }
+            },
+            {
+                "name": "payment_method_type",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/payment_method_type/description"
+                },
+                "schema": {
+                    "enum": [
+                        "credit_card",
+                        "payment_bank_us",
+                        "payment_bank_ca"
+                    ],
+                    "x-enumDescriptions": {
+                        "$ref": "file:./descriptions/enum_info.shared.json#/payment_method/request-type"
+                    },
+                    "type": "string"
+                }
+            },
+            {
+                "name": "payment_method_id",
+                "in": "query",
+                "schema": {
+                    "type": "string"
+                },
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/payment_method_id/description"
+                }
+            },
+            {
+                "name": "status",
+                "in": "query",
+                "schema": {
+                    "enum": [
+                        "pending",
+                        "completed",
+                        "failed",
+                        "canceled"
+                    ],
+                    "x-enumDescriptions": {
+                        "$ref": "file:./descriptions/enum_info.shared.json#/payment/status"
+                    },
+                    "type": "string"
+                },
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/payments_resource/status/description"
+                }
+            },
+            {
+                "name": "reference_id",
+                "in": "query",
+                "description": "The reference_id to search for.",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/Payments-Refunds-query_param_expand"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_payments/summary"
+        }
+    }
+}

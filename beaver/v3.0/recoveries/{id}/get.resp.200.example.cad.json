@@ -1,0 +1,30 @@
+{
+	"amount" : 16370,
+	"complete_time" : 1509392893,
+	"create_time" : 1509392162,
+	"currency" : "CAD",
+	"custom_data" : null,
+	"failure_reason" : null,
+	"id" : "4396d0a8-3d6c-4698-947b-a2e96b091b65",
+	"owner" : {
+		"id" : "4094ea0a-533f-4fed-861c-3f7be73cdf94",
+		"path" : "/accounts/4094ea0a-533f-4fed-861c-3f7be73cdf94",
+		"resource" : "accounts"
+	},
+	"path" : "/recoveries/4396d0a8-3d6c-4698-947b-a2e96b091b65",
+	"payout_method" : {
+		"id" : "300000000-5553-0000-0000-0000000065fa",
+		"path" : "/payout_methods/00000000-5553-0000-0000-0000000065fa",
+		"resource" : "payout_methods"
+	},
+	"pending_reasons" : null,
+	"resource" : "recoveries",
+	"status" : "completed",
+	"txnr_failure" : null,
+	"txnr_recovery" : {
+		"id" : "68c3caae-ffbe-4010-af5b-0f2112e1640f",
+		"path" : "/transaction_records/68c3caae-ffbe-4010-af5b-0f2112e1640f",
+		"resource" : "transaction_records"
+	},
+	"api_version": "3.0"
+}

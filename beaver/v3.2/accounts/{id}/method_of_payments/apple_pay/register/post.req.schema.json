@@ -1,0 +1,40 @@
+{
+    "type": "object",
+    "properties": {
+        "domain_names": {
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_shared/apple_pay-domain_names/description"
+            },
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "maxItems": 99,
+            "type": "array"
+        },
+        "partner_merchant_name": {
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_shared/apple_pay-partner_merchant_name/description"
+            },
+            "maxLength": 1024,
+            "type": "string"
+        },
+        "merchant_url": {
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_shared/apple_pay-merchant_url/description"
+            },
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "description": {
+        "$ref": "file:./descriptions/argument_info.shared.json#/accounts_shared/apple_pay_register-req/description"
+    },
+    "example": {
+        "$ref": "file:./beaver/v3.2/accounts/{id}/method_of_payments/apple_pay/register/post.req.example.1.json"
+    },
+    "required": [
+        "domain_names",
+        "partner_merchant_name"
+    ]
+}

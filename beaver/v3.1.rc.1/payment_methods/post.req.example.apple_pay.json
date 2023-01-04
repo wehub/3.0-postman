@@ -1,0 +1,14 @@
+{
+    "type": "apple_pay",
+    "apple_pay": {
+        "payment_method_data": "fjwfhkdjsfjkdsnfjasfsd47845gds",
+        "card_holder": {
+            "holder_name": "John Snow",
+            "email": "example@wepay.com",
+            "address": {
+                "country": "US",
+                "postal_code": "94025"
+            }
+        }
+    }
+}

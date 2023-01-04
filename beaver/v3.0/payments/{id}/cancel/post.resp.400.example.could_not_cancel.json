@@ -1,0 +1,5 @@
+{
+	"details" : null,
+	"error_code" : "PAYMENT_CANNOT_BE_CANCELED",
+	"error_message" : "This payment cannot be canceled."
+}

@@ -1,0 +1,34 @@
+{
+	"post" : {
+		"responses" : {
+			"202" : {
+				"description" : "Notification successfully received by WePay.",
+				"content" : {
+					"application/json" : {
+						"example" : {
+							"$ref" : "file:./beaver/unversioned/webhooks/sendgrid/post.resp.202.example.1.json"
+						},
+						"schema" : {
+							"$ref" : "file:./beaver/unversioned/webhooks/sendgrid/post.resp.202.schema.json"
+						}
+					}
+				}
+			}
+		},
+		"description" : "Notifies WePay that there is en email delivery status change.",
+		"operationId" : "POST_webhooks_sendgrid",
+		"requestBody" : {
+			"content" : {
+				"application/json" : {
+					"example" : {
+						"$ref" : "file:./beaver/unversioned/webhooks/sendgrid/post.req.example.1.json"
+					},
+					"schema" : {
+						"$ref" : "file:./beaver/unversioned/webhooks/sendgrid/post.req.schema.json"
+					}
+				}
+			},
+			"required" : true
+		}
+	}
+}

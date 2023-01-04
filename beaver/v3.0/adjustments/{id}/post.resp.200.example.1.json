@@ -1,0 +1,33 @@
+{
+	"amount" : 1000,
+	"create_time" : 1520471380,
+	"currency" : "USD",
+	"custom_data" : {
+		"reference_number" : 43453
+	},
+	"id" : "b3cfe648-1215-4b04-a856-9021454aeda9",
+	"owner" : {
+		"id" : "f9cd0a9b-9f61-47df-8eb6-ff1a6177ad01",
+		"path" : "/accounts/f9cd0a9b-9f61-47df-8eb6-ff1a6177ad01",
+		"resource" : "accounts"
+	},
+	"path" : "/adjustments/b3cfe648-1215-4b04-a856-9021454aeda9",
+	"reason": {
+		"reason_code": "REIMBURSEMENTS_AND_CORRECTIONS",
+		"reason_message": "Adjustment for reimbursement or corrections.",
+		"details": [
+			{
+				"detail_code": "bank_overdraft_fee",
+				"detail_message": "Reimbursement of Bank Overdraft Fee."
+			}
+		]
+	},
+	"resource" : "adjustments",
+	"txnr_adjustment" : {
+		"id" : "a7ce1142-e4f7-4790-aa10-dcc151ae1b7b",
+		"path" : "/transaction_records/a7ce1142-e4f7-4790-aa10-dcc151ae1b7b",
+		"resource" : "transaction_records"
+	},
+	"type" : "credit",
+	"api_version": "3.0"
+}

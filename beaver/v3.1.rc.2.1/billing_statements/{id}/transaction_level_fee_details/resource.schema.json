@@ -1,0 +1,105 @@
+{
+    "get": {
+        "tags": [
+            "/billing_statements/*"
+        ],
+        "x-versions": [
+            "v3.1.rc.2.1"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.1.rc.2.1/billing_statements/{id}/transaction_level_fee_details/get.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.1.rc.2.1/billing_statements/{id}/transaction_level_fee_details/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_billing_statements-id-transaction_level_fee_details/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_billing_statements-id-transaction_level_fee_details/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_billing_statements-id-transaction_level_fee_details/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_billing_statements-id-transaction_level_fee_details/description"
+        },
+        "operationId": "GET_billing_statements-id-transaction_level_fee_details",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "name": "page",
+                "in": "query",
+                "description": "Return elements starting from this page. If specified, no other query parameters can be specified.",
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "page_size",
+                "in": "query",
+                "description": "Maximum number of items per page of results.",
+                "schema": {
+                    "default": 10,
+                    "minimum": 1,
+                    "maximum": 500,
+                    "type": "integer"
+                }
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_billing_statements-id-transaction_level_fee_details/summary"
+        }
+    },
+    "parameters": [
+        {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Resource-Id"
+            }
+        }
+    ]
+}

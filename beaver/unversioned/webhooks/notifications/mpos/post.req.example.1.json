@@ -1,0 +1,101 @@
+{
+  "transaction_list": [
+    {
+      "invoice": {
+        "user_name": "Client1",
+        "organization_id": 123456,
+        "invoice_id": "100411",
+        "merchant_invoice_id": "Mer005",
+        "purchase_order_data": {
+          "tip_in_cents": 3,
+          "discount_in_cents": 2,
+          "tax_in_cents": 1,
+          "subtotal_in_cents": 100,
+          "surcharge_in_cents": 7,
+          "requested_amount_in_cents": 100,
+          "auth_amount_in_cents": 100
+        }
+      },
+      "information": {
+        "transaction_note": "txn note"
+      },
+      "payment_list": [
+        {
+          "authorization_data": {
+            "requested_amount_in_cents": 100,
+            "available_balance_in_cents": 100,
+            "auth_amount_in_cents": 100,
+            "clerk_id": "12A4",
+            "clerk_display": "clerk display test",
+            "pos_entry_mode": "Keyed",
+            "pos_entry_source":"Mobile",
+            "authorization_method": "Signature",
+            "authorization_code": "TP0203",
+            "response_code": 0,
+            "response_type": "Approved",
+            "processor_type":"ChaseSubmitter",
+            "emv_data": {
+              "application_identifier":"A000000025010801",
+              "application_label":"AMERICAN EXPRESS",
+              "application_preferred_name":"",
+              "cryptogram_type": "AAC",
+              "pin_statement": "01000001",
+              "emv_status": "QuickChip",
+              "offline_data": {
+                "pan_sequence_number": "10001",
+                "transaction_currency_code": "0840",
+                "aip": "AIP",
+                "tvr": "TVR",
+                "auc": "AUC",
+                "iac_default": "IAC",
+                "iac_denial": "IAC",
+                "iac_online": "IAC",
+                "tcc": "TCC test",
+                "application_cryptogram": "1",
+                "cid": "CID",
+                "cvm_results": "CVM",
+                "atc": "ATC",
+                "upn": "UPN",
+                "tac_default": "TAC",
+                "tac_denial": "TAC",
+                "tac_online": "TAC",
+                "iad": "IAD",
+                "tsi": "TSI",
+                "arc": "ARC",
+                "mid": "MID",
+                "tid": "TID",
+                "trn_ref": "TrnRef",
+                "val_code": "1234",
+                "rewards": "123456",
+                "decline_code": "11",
+                "decline_statement": "12345",
+                "avs_results": "0"
+              }
+            },
+            "batch": {
+              "batch_number":"210302001"
+            }
+          },
+          "card": {
+            "cardholder_name": "TEST/CARD",
+            "redacted_card_number": "412022XXXXXX1232",
+            "card_type": "AMEX"
+          },
+          "payment_source": "TERMINAL",
+          "transaction_type": "CreditSale",
+          "transaction_status": "Completed",
+          "is_offline": false,
+          "transacted_by": "Client1",
+          "custom_reference": "customRef",
+          "transaction_id": "3950",
+          "transaction_guid": "28379677-ace6-403b-b241-f540ab7cac5b",
+          "original_transaction_id": "4321",
+          "processor_time_stamp": "20170225215115",
+          "processor_time_zone": "America/New_York",
+          "device_time_stamp": "20170617125112",
+          "device_time_zone": "America/Los_Angeles"
+        }
+      ]
+    }
+  ]
+}

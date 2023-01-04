@@ -1,0 +1,69 @@
+{
+	"next" : "/payouts?page=QVFQNUFBRVhENUVGdEFOTk1CVzR4bHVsMnR2WGRJVkpVUVJtQTNvZXZlYVM2b1dDMGIvSXBDenEwTWlNRW9KbXpaTkJOVytaWjlHTEZNYVdPbU5Ka093MEhwSjcxZll4ZC9KM2dCWURlK29rS2pRZVZUNm43YzY0eUZJdkc5Q0dGd0RENSsyNE4rUFA1Wm5HUk15OXhrbFhhYnpEaklicVMxM1JrTmg1M1EvaEVZMEptdEdPZ01jcXhWM09QUT09",
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"amount" : 941,
+			"complete_time" : 1510128604,
+			"create_time" : 1510128004,
+			"currency" : "USD",
+			"custom_data" : null,
+			"failure_reason" : null,
+			"id" : "00000000-0000-0000-0000-00000a51d642",
+			"owner" : {
+				"id" : "be2b42e5-b808-40ae-9bbe-3291ab493f57",
+				"path" : "/accounts/be2b42e5-b808-40ae-9bbe-3291ab493f57",
+				"resource" : "accounts"
+			},
+			"path" : "/payouts/00000000-0000-0000-0000-00000a51d642",
+			"payout_method" : {
+				"id" : "00000000-6261-5553-0000-000000000bf2",
+				"path" : "/payout_methods/00000000-6261-5553-0000-000000000bf2",
+				"resource" : "payout_methods"
+			},
+			"pending_reasons" : null,
+			"resource" : "payouts",
+			"status" : "completed",
+			"txnr_failure" : null,
+			"txnr_payout" : {
+				"id" : "00000000-0000-0000-0000-000000013003",
+				"path" : "/transaction_records/00000000-0000-0000-0000-000000013003",
+				"resource" : "transaction_records"
+			},
+			"api_version": "3.0"
+		},
+		{
+			"amount" : 643,
+			"complete_time" : null,
+			"create_time" : 1510125026,
+			"currency" : "USD",
+			"custom_data" : null,
+			"failure_reason" : null,
+			"id" : "00000000-0000-0000-0000-00000d37a696",
+			"owner" : {
+				"id" : "be2b42e5-b808-40ae-9bbe-3291ab493f57",
+				"path" : "/accounts/be2b42e5-b808-40ae-9bbe-3291ab493f57",
+				"resource" : "accounts"
+			},
+			"path" : "/payouts/00000000-0000-0000-0000-00000d37a696",
+			"payout_method" : {
+				"id" : "00000000-6261-5553-0000-000000000ad1",
+				"path" : "/payout_methods/00000000-6261-5553-0000-000000000ad1",
+				"resource" : "payout_methods"
+			},
+			"pending_reasons" : [
+				{
+					"details" : null,
+					"reason_code" : "REVIEW",
+					"reason_message" : "Payout is under review."
+				}
+			],
+			"resource" : "payouts",
+			"status" : "pending",
+			"txnr_failure" : null,
+			"txnr_payout" : null,
+			"api_version": "3.0"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"id": "00000000-0000-0000-0000-00000f2ed424",
+    "resource": "payouts",
+    "path": "/payouts/00000000-0000-0000-0000-00000f2ed424",
+    "owner": {
+        "id": "3a9c5261-a690-4c00-9e40-8804f092eb77",
+        "resource": "accounts",
+        "path": "/accounts/3a9c5261-a690-4c00-9e40-8804f092eb77"
+    },
+    "create_time": 1568917474,
+    "complete_time": 0,
+    "status": "pending",
+    "amount": 16900,
+    "currency": "USD",
+    "payout_method": {
+        "id": "00000000-0000-0000-0000-000001336213",
+        "resource": "payout_methods",
+        "path": "/payout_methods/00000000-0000-0000-0000-000001336213"
+    },
+    "pending_reasons": [
+        {
+            "reason_code": "REVIEW",
+            "reason_message": "Payout is under review.",
+            "details": [
+                {
+                    "detail_code": "risk_review",
+                    "detail_message": "The Payout is currently under risk review."
+                }
+            ]
+        }
+    ],
+    "failure_reason": null,
+    "txnr_payout": null,
+    "txnr_failure": null,
+    "custom_data": null,
+    "api_version": "3.0"
+}

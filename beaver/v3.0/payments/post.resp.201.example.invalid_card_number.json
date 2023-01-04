@@ -1,0 +1,51 @@
+{
+	"id": "00000000-0000-0000-0000-000033a62d82",
+	"resource": "payments",
+	"path": "/payments/00000000-0000-0000-0000-000033a62d82",
+	"owner": {
+		"id": "0f4eefa8-a5b6-4a3a-ad56-db831fac764f",
+		"resource": "accounts",
+		"path": "/accounts/0f4eefa8-a5b6-4a3a-ad56-db831fac764f"
+	},
+	"create_time": 1553044057,
+	"status": "failed",
+	"authorization_code" : "0224241",
+	"amount": 100,
+	"currency": "USD",
+	"payment_method": {
+		"id": "00000000-6363-0000-0000-0000055f2b63",
+		"resource": "payment_methods",
+		"path": "/payment_methods/00000000-6363-0000-0000-0000055f2b63"
+	},
+	"fee_amount": 0,
+	"auto_capture": true,
+	"capture_at" : null,
+	"order": null,
+	"pending_reasons": null,
+	"failure_reason": {
+		"reason_code": "NOT_CAPTURED",
+		"reason_message": "Failed to capture the payment.",
+		"details": [
+			{
+				"detail_code": "invalid_card_number",
+				"detail_message": "The card number is invalid."
+			}
+		]
+	},
+	"txnr_app_fee": {
+		"id": "00000000-0000-0000-0000-0000000184f0",
+		"resource": "transaction_records",
+		"path": "/transaction_records/00000000-0000-0000-0000-0000000184f0"
+	},
+	"txnr_merchant": {
+		"id": "00000000-0000-0000-0000-0000000184f2",
+		"resource": "transaction_records",
+		"path": "/transaction_records/00000000-0000-0000-0000-0000000184f2"
+	},
+	"amount_refunded": 100,
+	"amount_disputed" : 100,
+	"initiated_by": "none",
+	"custom_data": null,
+	"api_version": "3.0",
+	"reference_id": "dfeb052b-ae8c-4a69-b909-8d9ecdd7c742"
+}

@@ -1,0 +1,37 @@
+{
+	"next" : null,
+	"previous" : null,
+	"api_version": "3.0",
+	"results" : [
+		{
+			"amount" : 1000,
+			"complete_time" : null,
+			"create_time" : 1278889543,
+			"currency" : "USD",
+			"custom_data" : null,
+			"failure_reason" : {
+				"details" : [],
+				"reason_code" : "UNKNOWN",
+				"reason_message" : "Failed due to unknown reasons."
+			},
+			"id" : "1e6ae009-8a2a-4192-a377-745258b1f398",
+			"owner" : {
+				"id" : "064b19fe-28b2-4b65-86d3-1a175dd3af2e",
+				"path" : "/accounts/064b19fe-28b2-4b65-86d3-1a175dd3af2e",
+				"resource" : "accounts"
+			},
+			"path" : "/recoveries/1e6ae009-8a2a-4192-a377-745258b1f398",
+			"payout_method" : {
+				"id" : "00000000-5553-0000-0000-000000000a76",
+				"path" : "/payout_methods/00000000-5553-0000-0000-000000000a76",
+				"resource" : "payout_methods"
+			},
+			"pending_reasons" : null,
+			"resource" : "recoveries",
+			"status" : "failed",
+			"txnr_failure" : null,
+			"txnr_recovery" : null,
+			"api_version": "3.0"
+		}
+	]
+}

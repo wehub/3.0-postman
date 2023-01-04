@@ -1,0 +1,14 @@
+{
+	"payout_methods" : {
+		"legal_entity_id" : "leen-abcd1234",
+		"nickname" : "foo bank",
+		"payout_bank_ca" : {
+			"account_number" : "124523092",
+			"account_type" : "checking",
+			"institution_number" : "123",
+			"transit_number" : "23941"
+		},
+		"type" : "payout_bank_ca"
+	},
+	"resource" : "payout_methods"
+}

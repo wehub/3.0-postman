@@ -1,0 +1,14 @@
+{
+	"domain_names": ["checkoutA.merchant1.myplatform.com", "checkoutB.merchant1.myplatform.com"],
+	"merchant_url": "merchant1.myplatform.com",
+	"partner_merchant_name": "Merchant 1",
+	"id" : null,
+	"owner" : {
+		"id" : "9647b114-55ca-4c58-8072-d424d879ac06",
+		"path" : "/accounts/9647b114-55ca-4c58-8072-d424d879ac06",
+		"resource" : "accounts"
+	},
+	"path" : "/accounts/9647b114-55ca-4c58-8072-d424d879ac06/method_of_payments/apple_pay",
+	"resource": "method_of_payments",
+	"api_version": "3.2"
+}

@@ -1,0 +1,217 @@
+{
+    "post": {
+        "tags": [
+            "/orders/*"
+        ],
+        "responses": {
+            "201": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/orders/post.resp.201.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/orders/post.resp.201.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_orders/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_orders/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_orders/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_orders/description"
+        },
+        "operationId": "POST_orders",
+        "requestBody": {
+            "content": {
+                "application/json": {
+                    "example": {
+                        "$ref": "file:./beaver/v3.0/orders/post.req.example.1.json"
+                    },
+                    "schema": {
+                        "$ref": "file:./beaver/v3.0/orders/post.req.schema.json"
+                    }
+                }
+            },
+            "required": true
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Content-Type"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_orders/summary"
+        }
+    },
+    "get": {
+        "tags": [
+            "/orders/*"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/orders/get.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/orders/get.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_orders/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_orders/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_orders/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_orders/description"
+        },
+        "operationId": "GET_orders",
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "name": "page",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/orders_resource/page/description"
+                },
+                "schema": {
+                    "type": "string"
+                }
+            },
+            {
+                "name": "page_size",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/orders_resource/page_size/description"
+                },
+                "schema": {
+                    "default": 10,
+                    "minimum": 1,
+                    "maximum": 50,
+                    "type": "integer"
+                }
+            },
+            {
+                "name": "create_time_start",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/orders_resource/create_time_start/description"
+                },
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "create_time_end",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/orders_resource/create_time_end/description"
+                },
+                "schema": {
+                    "type": "integer",
+                    "format": "int64",
+                    "minimum": 0
+                }
+            },
+            {
+                "name": "reference_number",
+                "in": "query",
+                "description": {
+                    "$ref": "file:./descriptions/argument_info.shared.json#/orders_resource/reference_number/description"
+                },
+                "schema": {
+                    "type": "string"
+                }
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/GET_orders/summary"
+        }
+    }
+}

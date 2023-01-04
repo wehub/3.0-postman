@@ -1,0 +1,300 @@
+{
+	"id" : null,
+	"owner" : {
+		"id" : "9647b114-55ca-4c58-8072-d424d879ac06",
+		"path" : "/accounts/9647b114-55ca-4c58-8072-d424d879ac06",
+		"resource" : "accounts"
+	},
+	"path" : "/accounts/9647b114-55ca-4c58-8072-d424d879ac06/capabilities",
+	"transaction_division_setup": {
+		"current_issues": [
+			{
+				"identity_verification": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"passport",
+						"drivers_license"
+					],
+					"message": "we need to verify your date of birth"
+				},
+				"issue_type": "identity_verification",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			}
+		],
+		"enabled": true,
+		"upcoming_issues": {}
+	},
+	"payments" : {
+		"current_issues" : [
+			{
+				"identity_verification": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"drivers_license",
+						"current_lease_contract"
+					],
+					"message": "we need to verify your address"
+				},
+				"issue_type": "identity_verification",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			},
+			{
+				"risk_outreach": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"drivers_license",
+						"current_lease_contract"
+					],
+					"message": "we need to verify your address"
+				},
+				"issue_type": "risk_outreach",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			}
+		],
+		"enabled" : true,
+		"upcoming_issues" : {
+			"1512344668" : [
+				{
+					"errant_fields" : {
+						"controller.address" : [
+							"is_null"
+						],
+						"controller.date_of_birth" : [
+							"is_null"
+						],
+						"controller.name" : [
+							"is_null"
+						],
+						"controller.personal_country_info.US.social_security_number" : [
+							"is_null"
+						],
+						"controller.phone" : [
+							"is_null"
+						],
+						"entity_country_info.US.legal_form" : [
+							"is_null"
+						],
+						"terms_of_service.acceptance_time" : [
+							"is_null"
+						],
+						"terms_of_service.original_ip" : [
+							"is_null"
+						],
+						"terms_of_service.terms_of_service_version" : [
+							"is_null"
+						]
+					},
+					"issue_type" : "errant_fields",
+					"target" : {
+						"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+						"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+						"resource" : "legal_entities"
+					}
+				}
+			]
+		}
+	},
+	"payouts" : {
+		"current_issues" : [
+			{
+				"errant_fields" : {
+					"controller.name" : [
+						"is_null"
+					]
+				},
+				"issue_type" : "errant_fields",
+				"target" : {
+					"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+					"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+					"resource" : "legal_entities"
+				}
+			},
+			{
+				"additional_documents_required" : [
+					"additional_representatives.representative_0.personal_verification.documents"
+				],
+				"issue_type" : "additional_documents_required",
+				"target" : {
+					"id" : null,
+					"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource" : "verifications"
+				}
+			},
+			{
+				"identity_verification": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"drivers_license",
+						"current_lease_contract"
+					],
+					"message": "we need to verify your address"
+				},
+				"issue_type": "identity_verification",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			},
+			{
+				"risk_outreach": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"drivers_license",
+						"current_lease_contract"
+					],
+					"message": "we need to verify your address"
+				},
+				"issue_type": "risk_outreach",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			}
+		],
+		"enabled" : false,
+		"upcoming_issues" : {
+			"1512344668" : [
+				{
+					"errant_fields" : {
+						"controller.address" : [
+							"is_null"
+						],
+						"controller.date_of_birth" : [
+							"is_null"
+						],
+						"controller.personal_country_info.US.social_security_number" : [
+							"is_null"
+						],
+						"controller.phone" : [
+							"is_null"
+						],
+						"entity_country_info.US.legal_form" : [
+							"is_null"
+						],
+						"terms_of_service.acceptance_time" : [
+							"is_null"
+						],
+						"terms_of_service.original_ip" : [
+							"is_null"
+						],
+						"terms_of_service.terms_of_service_version" : [
+							"is_null"
+						]
+					},
+					"issue_type" : "errant_fields",
+					"target" : {
+						"id" : "672b72f5-5136-4304-b553-ec7c8544b51e",
+						"path" : "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e",
+						"resource" : "legal_entities"
+					}
+				}
+			]
+		}
+	},
+	"terminals" : {
+		"current_issues" : [
+			{
+				"errant_fields": {
+					"controller.phone": [
+						"is_null"
+					],
+					"address": [
+						"is_null"
+					],
+					"entity_country_info.US.employer_identification_number": [
+						"is_null"
+					],
+					"controller.date_of_birth": [
+						"is_null"
+					],
+					"phone": [
+						"is_null"
+					],
+					"controller.name": [
+						"is_null"
+					],
+					"controller.personal_country_info.US.social_security_number": [
+						"is_null"
+					],
+					"entity_country_info.US.legal_form": [
+						"is_null"
+					],
+					"controller.email": [
+						"is_null"
+					]
+				},
+				"issue_type": "errant_fields",
+				"target": {
+					"resource": "legal_entities",
+					"id": "672b72f5-5136-4304-b553-ec7c8544b51e",
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e"
+				}
+			},
+			{
+				"identity_verification": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"drivers_license",
+						"current_lease_contract"
+					],
+					"message": "we need to verify your address"
+				},
+				"issue_type": "identity_verification",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			},
+			{
+				"risk_outreach": {
+					"path": "controller.personal_verification.documents",
+					"requested_documents": [
+						"current_bank_statement"
+					],
+					"message": "we need to verify your date of birth"
+				},
+				"issue_type": "risk_outreach",
+				"target": {
+					"id": null,
+					"path": "/legal_entities/672b72f5-5136-4304-b553-ec7c8544b51e/verifications",
+					"resource": "verifications"
+				}
+			},
+			{
+				"errant_fields": {
+					"name": [
+						"is_null"
+					],
+					"industry.merchant_category_code": [
+						"is_unsupported_value"
+					]
+				},
+				"issue_type": "errant_fields",
+				"target": {
+					"resource": "accounts",
+					"id": "9647b114-55ca-4c58-8072-d424d879ac06",
+					"path": "/accounts/9647b114-55ca-4c58-8072-d424d879ac06"
+				}
+			}
+		],
+		"enabled" : false,
+		"upcoming_issues" : {}
+	},
+	"resource" : "capabilities",
+	"api_version": "3.1"
+}

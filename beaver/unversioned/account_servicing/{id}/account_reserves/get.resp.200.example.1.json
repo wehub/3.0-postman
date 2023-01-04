@@ -1,0 +1,10 @@
+{
+  "rolling_reserve_amount": 10,
+  "rolling_reserve_limit": 10,
+  "rolling_reserve_delay_days": 10,
+  "is_rolling_reserve_positive": true,
+  "manual_reserve_amount": 10,
+  "manual_reserve_limit": 10,
+  "is_manual_reserve_active": true,
+  "currency": "USD"
+}

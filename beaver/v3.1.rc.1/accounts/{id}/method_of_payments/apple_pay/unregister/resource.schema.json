@@ -1,0 +1,111 @@
+{
+    "post": {
+        "tags": [
+            "/accounts/*"
+        ],
+        "x-versions": [
+            "v3.1.rc.1.1"
+        ],
+        "responses": {
+            "200": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.1.rc.1/accounts/{id}/method_of_payments/apple_pay/unregister/post.resp.200.example.1.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.1.rc.1/accounts/{id}/method_of_payments/apple_pay/unregister/post.resp.200.schema.json"
+                        }
+                    }
+                }
+            },
+            "400": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_accounts-id-method_of_payments-apple_pay-unregister/errors/400"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "403": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_accounts-id-method_of_payments-apple_pay-unregister/errors/403"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            },
+            "500": {
+                "description": {
+                    "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_accounts-id-method_of_payments-apple_pay-unregister/errors/500"
+                },
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "file:./shared/v3.0/errors/error_multiple_targets.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_accounts-id-method_of_payments-apple_pay-unregister/description"
+        },
+        "operationId": "POST_accounts-id-method_of_payments-apple_pay-unregister",
+        "requestBody": {
+            "content": {
+                "application/json": {
+                    "example": {
+                        "$ref": "file:./beaver/v3.1.rc.1/accounts/{id}/method_of_payments/apple_pay/unregister/post.req.example.1.json"
+                    },
+                    "schema": {
+                        "$ref": "file:./beaver/v3.1.rc.1/accounts/{id}/method_of_payments/apple_pay/unregister/post.req.schema.json"
+                    }
+                }
+            },
+            "required": true
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Authenticated_Content-Type"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_WePay-Risk-Token"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Client-IP"
+            }
+        ],
+        "summary": {
+            "$ref": "file:./descriptions/endpoint_info.shared.json#/POST_accounts-id-method_of_payments-apple_pay-unregister/summary"
+        }
+    },
+    "parameters": [
+        {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_shared/id/description"
+            },
+            "schema": {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Resource-Id"
+            }
+        }
+    ]
+}

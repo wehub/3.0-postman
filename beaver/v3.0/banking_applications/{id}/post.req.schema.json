@@ -1,0 +1,15 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "dba_name": {
+            "$ref": "file:./shared/v3.0/dba_name/shared.schema.json#/definitions/dba_name"
+        },
+        "description": {
+            "$ref": "file:./shared/v3.0/banking_applications/shared.schema.json#/definitions/description"
+        },
+        "reference_id": {
+            "$ref": "file:./shared/v3.0/reference_id/shared.schema.json#/definitions/reference_id"
+        }
+    },
+    "type": "object"
+}

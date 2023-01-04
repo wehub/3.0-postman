@@ -1,0 +1,16 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "callback_uri": {
+            "$ref": "file:./shared/v3.0/uri/shared.schema.json#/definitions/uri"
+        },
+        "topic": {
+            "$ref": "file:./shared/v3.0/notification_preferences/notification_preferences_topic.schema.json"
+        }
+    },
+    "required": [
+        "topic",
+        "callback_uri"
+    ],
+    "type": "object"
+}

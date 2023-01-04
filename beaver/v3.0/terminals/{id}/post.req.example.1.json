@@ -1,0 +1,9 @@
+{
+  "reference_id": "abc12345",
+  "terminal_configuration": {
+    "contactless_payments": {
+      "enabled": true,
+      "credit_debit_preference": "credit"
+    }
+  }
+}

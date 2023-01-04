@@ -1,0 +1,37 @@
+{
+	"id": "00000000-0000-0000-0000-00000a51d642",
+	"resource": "payouts",
+	"path": "/payouts/00000000-0000-0000-0000-00000a51d642",
+	"owner": {
+	    "id": "be2b42e5-b808-40ae-9bbe-3291ab493f57",
+	    "resource": "accounts",
+	    "path": "/accounts/be2b42e5-b808-40ae-9bbe-3291ab493f57"
+	},
+	"create_time": 1611907357,
+	"complete_time": 0,
+	"status": "pending",
+	"amount": 2910,
+	"currency": "USD",
+	"payout_method": {
+	    "id": "00000000-6261-5553-0000-000000000bf2",
+	    "resource": "payout_methods",
+	    "path": "/payout_methods/00000000-6261-5553-0000-000000000bf2"
+	},
+	"pending_reasons": [
+	    {
+	        "reason_code": "PROCESSING",
+	        "reason_message": "Payout is being processed.",
+	        "details": [
+	            {
+	                "detail_code": "processing",
+	                "detail_message": "The Payout is currently under processing."
+	            }
+	        ]
+	    }
+	],
+	"failure_reason": null,
+	"txnr_payout": null,
+	"txnr_failure": null,
+	"custom_data": null,
+	"api_version": "3.0"
+}

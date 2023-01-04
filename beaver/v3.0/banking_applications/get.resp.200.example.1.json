@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "create_time": 1646949995,
+      "reference_id": "1",
+      "dba_name": "test",
+      "description": "null",
+      "id": "8abfc49e-1fee-4eca-8ed2-22c3ded3f0d4",
+      "resource": "banking_applications",
+      "path": "/banking_applications/8abfc49e-1fee-4eca-8ed2-22c3ded3f0d4",
+      "owner": {
+        "id": "6b180736-6099-4500-9a96-1249f6008731",
+        "resource": "legal_entities",
+        "path": "/legal_entities/6b180736-6099-4500-9a96-1249f6008731"
+      },
+      "api_version": "3.0"
+    }
+  ],
+  "next": null,
+  "previous": null,
+  "api_version": "3.0"
+}

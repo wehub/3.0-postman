@@ -1,0 +1,58 @@
+{
+    "post": {
+        "security": [],
+        "responses": {
+            "201": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "example": {
+                            "$ref": "file:./beaver/v3.0/tokens/post.resp.201.example.legal_entity.json"
+                        },
+                        "schema": {
+                            "$ref": "file:./beaver/v3.0/tokens/post.resp.201.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description": "Create a new token",
+        "operationId": "POST_tokens",
+        "requestBody": {
+            "content": {
+                "application/json": {
+                    "examples": {},
+                    "schema": {
+                        "$ref": "file:./beaver/v3.0.rc.4.2/tokens/post.req.schema.json"
+                    }
+                }
+            },
+            "required": true
+        },
+        "parameters": [
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Public_App-Id"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Public_Api-Version"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Public_Content-Type"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Optional_Unique-Key"
+            },
+            {
+                "$ref": "file:./shared/v3.0/resource.shared.json#/trait_v3Session-Token"
+            }
+        ]
+    },
+    "options": {
+        "security": [],
+        "responses": {
+            "200": {
+                "description": ""
+            }
+        }
+    }
+}

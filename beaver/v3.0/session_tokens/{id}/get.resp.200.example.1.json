@@ -1,0 +1,20 @@
+{
+  "id": "c0e72785-195f-4a96-86b1-171a7a60da13",
+  "path": "/session_tokens/c0e72785-195f-4a96-86b1-171a7a60da13",
+  "resource": "session_tokens",
+  "type": "mobile_session",
+  "owner": {
+	"id": "4cf8bab9-271f-4008-8a3d-aeccc127ad67",
+	"resource": "accounts",
+	"path": "/accounts/4cf8bab9-271f-4008-8a3d-aeccc127ad67"
+  },
+  "state": "active",
+  "api_version": "3.0",
+  "create_time": 1619042611,
+  "expire_time": 1619129011,
+  "session_token": "prod_NTFfOTFmMDY3ZjctYmFjOC00NDA4LThhNGItNzMyNjk3NzRmMWJl",
+  "mobile_session": {
+	"time_to_live": 86400,
+	"account_id": "4cf8bab9-271f-4008-8a3d-aeccc127ad67"
+  }
+}

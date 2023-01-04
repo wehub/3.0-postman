@@ -1,0 +1,10 @@
+{
+    "payment_method_id": "00000000-6261-4341-0000-00000000165d",
+    "account_id": "6ffd8784-7047-4c1e-b2c8-cce195f83b20",
+    "category": "personal",
+    "type": "sporadic",
+    "signature": {
+        "signatory_name": "abc",
+        "signature_time": 1657052022
+    }
+}

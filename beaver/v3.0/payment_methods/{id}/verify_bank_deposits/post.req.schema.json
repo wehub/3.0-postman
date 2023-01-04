@@ -1,0 +1,15 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "microdeposits": {
+            "items": {
+                "type": "integer"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "microdeposits"
+    ],
+    "type": "object"
+}

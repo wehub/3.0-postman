@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "received_log_count": {
+      "type": "integer",
+      "format": "int64",
+      "minimum": 1
+    },
+    "accepted_log_count": {
+      "type": "integer",
+      "format": "int64",
+      "minimum": 0
+    },
+    "accepted_details": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Log id."
+          }
+        },
+        "required": [
+          "id"
+        ]
+      }
+    },
+    "unretryable_failed_log_count": {
+      "type": "integer",
+      "minimum": 0,
+      "format": "int64"
+    },
+    "unretryable_failed_details": {
+      "type": "array",
+      "items": {
+        "$ref": "file:./shared/unversioned/mobile_logs/shared.schema.json#/definitions/failed_detail"
+      }
+    },
+    "retryable_failed_log_count": {
+      "type": "integer",
+      "minimum": 0,
+      "format": "int64"
+    },
+    "retryable_failed_details": {
+      "type": "array",
+      "items": {
+        "$ref": "file:./shared/unversioned/mobile_logs/shared.schema.json#/definitions/failed_detail"
+      }
+    }
+  }
+}
+

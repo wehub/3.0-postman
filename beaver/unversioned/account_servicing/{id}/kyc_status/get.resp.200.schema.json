@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "legal_entity": {
+      "$ref": "file:./shared/unversioned/account_servicing/kyc_status.schema.json#/definitions/legal_entity_status"
+    },
+    "entity_verification": {
+      "$ref": "file:./shared/unversioned/account_servicing/kyc_status.schema.json#/definitions/entity_status"
+    },
+    "controller": {
+      "$ref": "file:./shared/unversioned/account_servicing/kyc_status.schema.json#/definitions/entity_status"
+    },
+    "additional_representatives": {
+      "$ref": "file:./shared/unversioned/account_servicing/kyc_status.schema.json#/definitions/additional_representatives"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "legal_entity",
+    "entity_verification",
+    "controller",
+    "additional_representatives"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+	"payout_methods" : {
+		"legal_entity_id" : "leen-abcd1234",
+		"nickname" : "foo bank",
+		"payout_bank_gb" : {
+			"account_number" : "12452309",
+			"sort_code" : "239481"
+		},
+		"type" : "payout_bank_gb"
+	},
+	"resource" : "payout_methods"
+}

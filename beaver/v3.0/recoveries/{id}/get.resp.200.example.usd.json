@@ -1,0 +1,30 @@
+{
+	"amount" : 1000,
+	"complete_time" : 1278889965,
+	"create_time" : 1278889543,
+	"currency" : "USD",
+	"custom_data" : null,
+	"failure_reason" : null,
+	"id" : "bb109170-f401-44b0-8a8b-7abfd27e9f30",
+	"owner" : {
+		"id" : "67a88c34-7188-45f2-be1f-6a4fdeb21d77",
+		"path" : "/accounts/67a88c34-7188-45f2-be1f-6a4fdeb21d77",
+		"resource" : "accounts"
+	},
+	"path" : "/recoveries/bb109170-f401-44b0-8a8b-7abfd27e9f30",
+	"payout_method" : {
+		"id" : "00000000-5553-0000-0000-000000000054",
+		"path" : "/payout_methods/00000000-5553-0000-0000-000000000054",
+		"resource" : "payout_methods"
+	},
+	"pending_reasons" : null,
+	"resource" : "recoveries",
+	"status" : "completed",
+	"txnr_failure" : null,
+	"txnr_recovery" : {
+		"id" : "af39bc0e-28ee-4b01-8049-7d04fc6a32c7",
+		"path" : "/transaction_records/af39bc0e-28ee-4b01-8049-7d04fc6a32c7",
+		"resource" : "transaction_records"
+	},
+	"api_version": "3.0"
+}

@@ -1,0 +1,36 @@
+{
+	"additionalProperties" : false,
+	"properties" : {
+		"eventTimestamp" : {
+			"type": "string",
+			"nullable": true,
+			"example": "1580727600",
+			"description": "Unix timestamp in UTC"
+		},
+		"eventCorrelationId" : {
+			"type": "string",
+			"nullable": true,
+			"description": "A unique Trace Id for every request. This SHOULD be unique for every request and 128 bit number, represented in lower hex characters.",
+			"example": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+		},
+		"eventName" : {
+			"type": "string",
+			"nullable": true,
+			"description": "Event label for the screening request initiated."
+		},
+		"eventSchemaName" : {
+			"type": "string",
+			"nullable": true,
+			"description": "Physical name for the Event Schema in the Schema Registry. The Schema includes the data definitions for the Event content. This is the name element in the Avro schema file.",
+			"example": "PaymentApproved"
+		},
+		"payload" : {
+			"type": "object",
+			"additionalProperties" : true
+		}
+	},
+	"required" : [
+		"payload"
+	],
+	"type" : "object"
+}

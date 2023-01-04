@@ -1,0 +1,38 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "next": {
+            "type": "string",
+            "nullable": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_get/next/description"
+            }
+        },
+        "previous": {
+            "type": "string",
+            "nullable": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_get/previous/description"
+            }
+        },
+        "results": {
+            "items": {
+                "$ref": "file:./shared/v3.0/accounts/shared.schema.json#/definitions/account-resp"
+            },
+            "type": "array",
+            "uniqueItems": true,
+            "description": {
+                "$ref": "file:./descriptions/argument_info.shared.json#/accounts_get/results/description"
+            }
+        },
+        "api_version": {
+            "$ref": "file:./shared/v3.0/version/shared.schema.json#/definitions/api_version"
+        }
+    },
+    "required": [
+        "results",
+        "next",
+        "previous"
+    ],
+    "type": "object"
+}

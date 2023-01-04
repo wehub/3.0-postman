@@ -1,0 +1,18 @@
+{
+	"create_time" : 1510080181,
+	"currency" : "USD",
+	"fee_amount" : 59,
+	"gross_amount" : 2000,
+	"id" : "00000000-0000-0000-0000-000000013003",
+	"net_amount" : 1941,
+	"owner" : {
+		"id" : "00000000-0000-0000-0000-0000767bf5cd",
+		"path" : "/payments/00000000-0000-0000-0000-0000767bf5cd",
+		"resource" : "payments",
+		"custom_data": null
+	},
+	"path" : "/transaction_records/00000000-0000-0000-0000-000000013003",
+	"resource" : "transaction_records",
+	"type" : "merchant_payment",
+	"api_version": "3.0"
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"email": "example1@test.com",
+		"event": "processed",
+		"sg_event_id": "6SXE-UZC-iJzYrZU2QnqWg==",
+		"sg_message_id": "14c5d75ce93.dfd.64b469.filter0001.16648.5515E0B88.0",
+		"smtp-id": "<14c5d75ce93.dfd.64b469@ismtpd-555>",
+		"timestamp": 1652210027,
+		"email_id": "123456789"
+	},
+	{
+		"email": "example2@test.com",
+		"event": "dropped",
+		"sg_event_id": "6SXE-UZC-iJzYrZU2QnqWg==",
+		"sg_message_id": "14c5d75ce93.dfd.64b469.filter0001.16648.5515E0B88.0",
+		"smtp-id": "<14c5d75ce93.dfd.64b469@ismtpd-555>",
+		"timestamp": 1652210035,
+		"email_id": "123456701"
+	}
+]

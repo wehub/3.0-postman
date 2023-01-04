@@ -1,0 +1,16 @@
+{
+  "received_log_count": 2,
+  "accepted_log_count": 2,
+  "accepted_details": [
+    {
+      "id": "682dc708-d2cf-433c-94b6-50cb921a3579"
+    },
+    {
+      "id": "a3c7d2c0-1733-4920-a780-a5794ed18f2d"
+    }
+  ],
+  "unretryable_failed_log_count": 0,
+  "unretryable_failed_details": [],
+  "retryable_failed_log_count": 0,
+  "retryable_failed_details": []
+}

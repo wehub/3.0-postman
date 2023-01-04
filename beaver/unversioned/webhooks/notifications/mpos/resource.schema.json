@@ -1,0 +1,43 @@
+{
+  "post": {
+    "parameters": [
+      {
+        "in": "header",
+        "name": "secret",
+        "description": "A unique, 36-character GUID shared secret for authenticating the sender",
+        "schema": {
+          "type": "string"
+        },
+        "required": true,
+        "example": "a2a50b1e-33f6-4ced-a068-350c2ac19bbc"
+      }
+    ],
+    "description": "Notifies WePay that an Ingenico event has happened",
+    "operationId" : "POST_webhooks_ingenico",
+    "requestBody": {
+      "required": true,
+      "content": {
+        "application/json": {
+          "schema": {
+            "$ref": "file:./beaver/unversioned/webhooks/notifications/mpos/post.req.schema.json"
+          }
+        }
+      }
+    },
+    "responses": {
+      "200": {
+        "description": "Notification successfully received by WePay.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "file:./beaver/unversioned/webhooks/notifications/mpos/post.resp.200.schema.json"
+            },
+            "example": {
+              "$ref" : "file:./beaver/unversioned/webhooks/notifications/mpos/post.resp.200.example.1.json"
+            }
+          }
+        }
+      }
+    }
+  }
+}

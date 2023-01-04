@@ -1,0 +1,57 @@
+{
+	"post" : {
+		"responses" : {
+			"202" : {
+				"description" : "Notification successfully received by WePay.",
+				"content" : {
+					"application/json" : {
+						"example" : {
+							"$ref" : "file:./beaver/unversioned/webhooks/notifications/pos/post.resp.202.example.1.json"
+						},
+						"schema" : {
+							"$ref" : "file:./beaver/unversioned/webhooks/notifications/pos/post.resp.202.schema.json"
+						}
+					}
+				}
+			}
+		},
+		"description" : "Notifies WePay that an Aevi event has happened.",
+		"operationId" : "POST_webhooks_aevi",
+		"requestBody" : {
+			"content" : {
+				"application/json" : {
+					"example" : {
+						"$ref" : "file:./beaver/unversioned/webhooks/notifications/pos/post.req.example.1.json"
+					},
+					"schema" : {
+						"$ref" : "file:./beaver/unversioned/webhooks/notifications/pos/post.req.schema.json"
+					}
+				}
+			},
+			"required" : true
+		},
+		"parameters" : [
+			{
+				"name": "Webhook-Version",
+				"in": "header",
+				"required": true,
+				"schema": {
+					"type": "string",
+					"enum": [
+						"0.6",
+						"0.7",
+						"0.8",
+						"0.9",
+						"0.10",
+						"0.11",
+						"0.12",
+						"0.13"
+					],
+					"x-enumDescriptions": {
+						"$ref": "file:./descriptions/enum_info.shared.json#/unversioned/webhook_version"
+					}
+				}
+			}
+		]
+	}
+}

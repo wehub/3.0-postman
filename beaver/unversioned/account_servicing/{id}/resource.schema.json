@@ -1,0 +1,41 @@
+{
+	"get": {
+		"responses": {
+			"200": {
+				"description": "",
+				"content": {
+					"application/json": {
+						"example": {
+							"$ref": "file:./omanyte/unversioned/account_servicing/{id}/get.resp.200.example.1.json"
+						},
+						"schema": {
+							"$ref": "file:./omanyte/unversioned/account_servicing/{id}/get.resp.200.schema.json"
+						}
+					}
+				}
+			}
+		},
+		"operationId": "GET_account_servicing-id",
+		"parameters": [
+			{
+				"name": "App-Id",
+				"in": "header",
+				"required": true,
+				"description": "Chase app id at WePay.",
+				"schema": {
+					"type": "string"
+				},
+				"example": "12121"
+			},
+			{
+				"name" : "id",
+				"in" : "path",
+				"required" : true,
+				"description": "Chase CIS reference number",
+				"schema" : {
+					"type": "string"
+				}
+			}
+		]
+	}
+}

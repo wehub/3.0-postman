@@ -1,0 +1,12 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "custom_data": {
+            "$ref": "file:./shared/v3.0/custom_data/custom_data.schema.json"
+        },
+        "rbits": {
+            "$ref": "file:./shared/v3.0/rbits/embedded_rbits.schema.json"
+        }
+    },
+    "type": "object"
+}

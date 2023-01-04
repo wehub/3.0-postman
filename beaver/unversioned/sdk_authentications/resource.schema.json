@@ -1,0 +1,72 @@
+{
+    "post" : {
+        "responses" : {
+            "201" : {
+                "description" : "",
+                "content" : {
+                    "application/json" : {
+                        "example" : {
+                            "$ref" : "file:./beaver/unversioned/sdk_authentications/post.resp.201.example.1.json"
+                        },
+                        "schema" : {
+                            "$ref" : "file:./beaver/unversioned/sdk_authentications/post.resp.201.schema.json"
+                        }
+                    }
+                }
+            }
+        },
+        "description" : "Put a WePay SDK instance into an authenticated state.",
+        "operationId" : "POST_sdk_authentications",
+        "requestBody" : {
+            "content" : {
+                "application/json" : {
+                    "example" : {
+                        "$ref" : "file:./beaver/unversioned/sdk_authentications/post.req.example.1.json"
+                    },
+                    "schema" : {
+                        "$ref" : "file:./beaver/unversioned/sdk_authentications/post.req.schema.json"
+                    }
+                }
+            },
+            "required" : true
+        },
+        "parameters" : [
+            {
+                "name" : "X-WP-Third-Party",
+                "in" : "header",
+                "required" : true,
+                "schema" : {
+                    "type" : "string"
+                }
+            },
+            {
+                "name" : "Session-Token",
+                "in" : "header",
+                "required" : true,
+                "schema" : {
+                    "type" : "string"
+                }
+            },
+            {
+                "name": "App-Id",
+                "in": "header",
+                "required": true,
+                "schema": {
+                    "type": "string"
+                },
+                "example" : {
+                    "$ref" : "file:./descriptions/argument_info.shared.json#/headers/trait_v3Authenticated_App-Id/example"
+                }
+            }
+        ]
+    },
+    "options": {
+        "description": "Pre-Flight Request for /sdk_authentications API.",
+        "security": [],
+        "responses": {
+            "200": {
+                "description": ""
+            }
+        }
+    }
+}

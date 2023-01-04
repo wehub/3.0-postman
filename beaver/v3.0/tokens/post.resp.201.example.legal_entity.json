@@ -1,0 +1,13 @@
+{
+	"create_time" : 1512172276,
+	"expire_time" : 1512174076,
+	"id" : "legal_entities-11-123abc",
+	"owner" : {
+		"id" : "app-123-abc31",
+		"path" : null,
+		"resource" : "applications"
+	},
+	"path" : null,
+	"resource" : "tokens",
+	"api_version": "3.0"
+}
