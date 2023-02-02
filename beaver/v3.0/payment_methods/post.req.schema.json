@@ -1,3 +1,0 @@
-{
-    "$ref": "file:./shared/v3.0/payment_methods/payment_method.req.schema.json"
-}

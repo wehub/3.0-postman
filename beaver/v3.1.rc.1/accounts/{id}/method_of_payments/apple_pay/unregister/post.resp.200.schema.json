@@ -1,3 +1,0 @@
-{
-    "$ref": "file:./shared/v3.1/accounts/shared.schema.json#/definitions/apple_pay_register-resp"
-}

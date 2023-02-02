@@ -1,4 +1,0 @@
-{
-	"callback_uri" : "https://example.com/payments",
-	"topic" : "payments.completed"
-}

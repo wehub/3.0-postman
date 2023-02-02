@@ -1,3 +1,0 @@
-{
-    "$ref": "file:./shared/v3.0/legal_entities/shared.schema.json#/definitions/legal_entity-resp"
-}

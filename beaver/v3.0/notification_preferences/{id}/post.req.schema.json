@@ -1,9 +1,0 @@
-{
-    "additionalProperties": false,
-    "properties": {
-        "callback_uri": {
-            "$ref": "file:./shared/v3.0/uri/shared.schema.json#/definitions/uri"
-        }
-    },
-    "type": "object"
-}
