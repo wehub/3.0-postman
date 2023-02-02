@@ -1,3 +1,0 @@
-{
-    "$ref": "file:./shared/v3.0.rc.5.1/accounts/shared.schema.json#/definitions/account-resp"
-}
