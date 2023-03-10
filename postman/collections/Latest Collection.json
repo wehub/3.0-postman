@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "9f6bd529-708c-48fb-a144-d90a37e7f184",
-		"name": "3.0 Latest",
+		"name": "Latest Collection",
 		"description": "Use WePay's APIs to integrate with [Link](/link), [Clear](/clear), or [Core](/core), and to leverage feature offerings like [Digital Wallets](/digital-wallets) and [Card Present](/card-present).\n\nContact Support:\n Name: WePay API Support\n Email: api@wepay.com",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "1968246-9f6bd529-708c-48fb-a144-d90a37e7f184"
@@ -26947,29 +26947,32 @@
 			"id": "b3e17b46-5e54-4d41-8b26-18478b1d9a36"
 		}
 	],
-	"auth": {
-		"type": "apikey",
-		"apikey": [
-			{
-				"key": "key",
-				"value": "App-Id",
-				"type": "string"
-			},
-			{
-				"key": "value",
-				"value": "{{apiKey}}",
-				"type": "string"
-			},
-			{
-				"key": "in",
-				"value": "header",
-				"type": "string"
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "a48085f9-fc5b-4588-8996-2f830f62c1b3",
+				"type": "text/javascript",
+				"exec": [
+					"pm.request.headers.add({ key: \"App-Id\", value: pm.environment.get(\"app_id\") })",
+					"pm.request.headers.add({key: \"App-Token\", value: pm.environment.get(\"app_token\") })"
+				]
 			}
-		]
-	},
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "648b8cda-e23a-46c0-99aa-7287a126f5bc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "9dcf804e-5a3e-4ab2-8073-aa1aa16b54a8",
+			"id": "e2065267-817b-4268-bf97-b11a4ee4d1f2",
 			"key": "baseUrl",
 			"value": "https://stage-api.wepay.com",
 			"type": "string"
